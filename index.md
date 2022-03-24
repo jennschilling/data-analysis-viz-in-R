@@ -1,4 +1,4 @@
-## Welcome to Data Analysis and Visualization in R
+### Welcome to Data Analysis and Visualization in R
 
 I'm so glad you're here! 
 
