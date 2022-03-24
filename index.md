@@ -26,4 +26,6 @@ This workshop will be held Sunday, June 5, 2022, 12:30–4:00 PM at the AIR Foru
 
 ### Pre-work
 
-The workshop requires attendees to have a laptop with [R](https://www.r-project.org/) and [RStudio](https://www.rstudio.com/) already installed. 
+The workshop requires attendees to have a laptop with [R](https://www.r-project.org/) and [RStudio](https://www.rstudio.com/) already installed.
+
+Please install the following packages in R prior to attending the workhop...
