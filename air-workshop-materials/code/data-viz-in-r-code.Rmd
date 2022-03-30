@@ -1,0 +1,65 @@
+---
+title: "Data Analysis Visualization in R"
+author: "Jenn Schilling"
+date: "June 5, 2022"
+output:
+ html_document:
+  theme: "flatly" 
+  toc: TRUE
+  toc_float: TRUE
+---
+
+
+This file contains contains code for pre-conference AIR Forum Workshop: Data Analysis Visualization in R, presented for the Association for Institutional Research by Jenn Schilling on June 5, 2022. 
+
+**Materials developed by Jenn Schilling.**  
+
+
+```{r setup, include=FALSE}
+
+# Set default chunk options
+knitr::opts_chunk$set(echo = TRUE, message = FALSE) 
+
+# Set the default size of figures
+knitr::opts_chunk$set(fig.width = 8, fig.height = 5)  
+
+# Load libraries
+library(here)
+library(explore)
+library(tidyverse)
+library(scales)
+
+```
+
+
+# Read the Data
+
+```{r read-data, include=FALSE}
+
+# Data from IPEDS
+ipeds_char <- read_csv(here("data", "IPEDS_inst_char.csv"))
+ipeds_adm <- read_csv(here("data", "IPEDS_inst_adm.csv"))
+ipeds_enrl <- read_csv(here("data", "IPEDS_inst_enrl.csv"))
+ipeds_compl <- read_csv(here("data", "IPEDS_inst_compl.csv"))
+
+```
+
+
+
+# Data Exploration
+
+
+## Your Turn
+
+
+# Data Analysis
+
+
+## Your Turn
+
+
+# Data Visualization
+
+
+## Your Turn
+

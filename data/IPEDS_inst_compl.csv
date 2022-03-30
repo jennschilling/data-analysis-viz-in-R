@@ -1,0 +1,568 @@
+﻿year,unitid,instnm,awlevelc,gender,n_deg
+2017,104179,University of Arizona,Bachelor's degree,Total,6638
+2017,104179,University of Arizona,Bachelor's degree,Men,3103
+2017,104179,University of Arizona,Bachelor's degree,Women,3535
+2017,104179,University of Arizona,Master's degree,Total,1929
+2017,104179,University of Arizona,Master's degree,Men,867
+2017,104179,University of Arizona,Master's degree,Women,1062
+2017,104179,University of Arizona,Doctor's degree,Total,936
+2017,104179,University of Arizona,Doctor's degree,Men,428
+2017,104179,University of Arizona,Doctor's degree,Women,508
+2018,104179,University of Arizona,Bachelor's degree,Total,6913
+2018,104179,University of Arizona,Bachelor's degree,Men,3170
+2018,104179,University of Arizona,Bachelor's degree,Women,3743
+2018,104179,University of Arizona,Master's degree,Total,1938
+2018,104179,University of Arizona,Master's degree,Men,883
+2018,104179,University of Arizona,Master's degree,Women,1055
+2018,104179,University of Arizona,Doctor's degree,Total,947
+2018,104179,University of Arizona,Doctor's degree,Men,442
+2018,104179,University of Arizona,Doctor's degree,Women,505
+2019,104179,University of Arizona,Bachelor's degree,Total,7368
+2019,104179,University of Arizona,Bachelor's degree,Men,3463
+2019,104179,University of Arizona,Bachelor's degree,Women,3905
+2019,104179,University of Arizona,Master's degree,Total,2066
+2019,104179,University of Arizona,Master's degree,Men,922
+2019,104179,University of Arizona,Master's degree,Women,1144
+2019,104179,University of Arizona,Doctor's degree,Total,978
+2019,104179,University of Arizona,Doctor's degree,Men,476
+2019,104179,University of Arizona,Doctor's degree,Women,502
+2020,104179,University of Arizona,Bachelor's degree,Total,7027
+2020,104179,University of Arizona,Bachelor's degree,Men,3299
+2020,104179,University of Arizona,Bachelor's degree,Women,3728
+2020,104179,University of Arizona,Master's degree,Total,2002
+2020,104179,University of Arizona,Master's degree,Men,889
+2020,104179,University of Arizona,Master's degree,Women,1113
+2020,104179,University of Arizona,Doctor's degree,Total,948
+2020,104179,University of Arizona,Doctor's degree,Men,442
+2020,104179,University of Arizona,Doctor's degree,Women,506
+2017,110644,University of California-Davis,Bachelor's degree,Total,7618
+2017,110644,University of California-Davis,Bachelor's degree,Men,3177
+2017,110644,University of California-Davis,Bachelor's degree,Women,4441
+2017,110644,University of California-Davis,Master's degree,Total,1093
+2017,110644,University of California-Davis,Master's degree,Men,522
+2017,110644,University of California-Davis,Master's degree,Women,571
+2017,110644,University of California-Davis,Doctor's degree,Total,919
+2017,110644,University of California-Davis,Doctor's degree,Men,412
+2017,110644,University of California-Davis,Doctor's degree,Women,507
+2018,110644,University of California-Davis,Bachelor's degree,Total,7932
+2018,110644,University of California-Davis,Bachelor's degree,Men,3342
+2018,110644,University of California-Davis,Bachelor's degree,Women,4590
+2018,110644,University of California-Davis,Master's degree,Total,1151
+2018,110644,University of California-Davis,Master's degree,Men,516
+2018,110644,University of California-Davis,Master's degree,Women,635
+2018,110644,University of California-Davis,Doctor's degree,Total,988
+2018,110644,University of California-Davis,Doctor's degree,Men,469
+2018,110644,University of California-Davis,Doctor's degree,Women,519
+2019,110644,University of California-Davis,Bachelor's degree,Total,7773
+2019,110644,University of California-Davis,Bachelor's degree,Men,3121
+2019,110644,University of California-Davis,Bachelor's degree,Women,4652
+2019,110644,University of California-Davis,Master's degree,Total,1288
+2019,110644,University of California-Davis,Master's degree,Men,514
+2019,110644,University of California-Davis,Master's degree,Women,774
+2019,110644,University of California-Davis,Doctor's degree,Total,929
+2019,110644,University of California-Davis,Doctor's degree,Men,410
+2019,110644,University of California-Davis,Doctor's degree,Women,519
+2020,110644,University of California-Davis,Bachelor's degree,Total,8410
+2020,110644,University of California-Davis,Bachelor's degree,Men,3402
+2020,110644,University of California-Davis,Bachelor's degree,Women,5008
+2020,110644,University of California-Davis,Master's degree,Total,1384
+2020,110644,University of California-Davis,Master's degree,Men,615
+2020,110644,University of California-Davis,Master's degree,Women,769
+2020,110644,University of California-Davis,Doctor's degree,Total,930
+2020,110644,University of California-Davis,Doctor's degree,Men,389
+2020,110644,University of California-Davis,Doctor's degree,Women,541
+2017,110662,University of California-Los Angeles,Bachelor's degree,Total,8414
+2017,110662,University of California-Los Angeles,Bachelor's degree,Men,3684
+2017,110662,University of California-Los Angeles,Bachelor's degree,Women,4730
+2017,110662,University of California-Los Angeles,Master's degree,Total,3324
+2017,110662,University of California-Los Angeles,Master's degree,Men,1816
+2017,110662,University of California-Los Angeles,Master's degree,Women,1508
+2017,110662,University of California-Los Angeles,Doctor's degree,Total,1418
+2017,110662,University of California-Los Angeles,Doctor's degree,Men,742
+2017,110662,University of California-Los Angeles,Doctor's degree,Women,676
+2018,110662,University of California-Los Angeles,Bachelor's degree,Total,8444
+2018,110662,University of California-Los Angeles,Bachelor's degree,Men,3645
+2018,110662,University of California-Los Angeles,Bachelor's degree,Women,4799
+2018,110662,University of California-Los Angeles,Master's degree,Total,3321
+2018,110662,University of California-Los Angeles,Master's degree,Men,1776
+2018,110662,University of California-Los Angeles,Master's degree,Women,1545
+2018,110662,University of California-Los Angeles,Doctor's degree,Total,1321
+2018,110662,University of California-Los Angeles,Doctor's degree,Men,692
+2018,110662,University of California-Los Angeles,Doctor's degree,Women,629
+2019,110662,University of California-Los Angeles,Bachelor's degree,Total,8499
+2019,110662,University of California-Los Angeles,Bachelor's degree,Men,3576
+2019,110662,University of California-Los Angeles,Bachelor's degree,Women,4923
+2019,110662,University of California-Los Angeles,Master's degree,Total,3521
+2019,110662,University of California-Los Angeles,Master's degree,Men,1823
+2019,110662,University of California-Los Angeles,Master's degree,Women,1698
+2019,110662,University of California-Los Angeles,Doctor's degree,Total,1307
+2019,110662,University of California-Los Angeles,Doctor's degree,Men,683
+2019,110662,University of California-Los Angeles,Doctor's degree,Women,624
+2020,110662,University of California-Los Angeles,Bachelor's degree,Total,9354
+2020,110662,University of California-Los Angeles,Bachelor's degree,Men,3880
+2020,110662,University of California-Los Angeles,Bachelor's degree,Women,5474
+2020,110662,University of California-Los Angeles,Master's degree,Total,3253
+2020,110662,University of California-Los Angeles,Master's degree,Men,1668
+2020,110662,University of California-Los Angeles,Master's degree,Women,1585
+2020,110662,University of California-Los Angeles,Doctor's degree,Total,1245
+2020,110662,University of California-Los Angeles,Doctor's degree,Men,683
+2020,110662,University of California-Los Angeles,Doctor's degree,Women,562
+2017,134130,University of Florida,Bachelor's degree,Total,7960
+2017,134130,University of Florida,Bachelor's degree,Men,3432
+2017,134130,University of Florida,Bachelor's degree,Women,4528
+2017,134130,University of Florida,Master's degree,Total,4062
+2017,134130,University of Florida,Master's degree,Men,2098
+2017,134130,University of Florida,Master's degree,Women,1964
+2017,134130,University of Florida,Doctor's degree,Total,2008
+2017,134130,University of Florida,Doctor's degree,Men,920
+2017,134130,University of Florida,Doctor's degree,Women,1088
+2018,134130,University of Florida,Bachelor's degree,Total,8295
+2018,134130,University of Florida,Bachelor's degree,Men,3481
+2018,134130,University of Florida,Bachelor's degree,Women,4814
+2018,134130,University of Florida,Master's degree,Total,4267
+2018,134130,University of Florida,Master's degree,Men,2228
+2018,134130,University of Florida,Master's degree,Women,2039
+2018,134130,University of Florida,Doctor's degree,Total,1982
+2018,134130,University of Florida,Doctor's degree,Men,879
+2018,134130,University of Florida,Doctor's degree,Women,1103
+2019,134130,University of Florida,Bachelor's degree,Total,8990
+2019,134130,University of Florida,Bachelor's degree,Men,3796
+2019,134130,University of Florida,Bachelor's degree,Women,5194
+2019,134130,University of Florida,Master's degree,Total,3767
+2019,134130,University of Florida,Master's degree,Men,1838
+2019,134130,University of Florida,Master's degree,Women,1929
+2019,134130,University of Florida,Doctor's degree,Total,1963
+2019,134130,University of Florida,Doctor's degree,Men,826
+2019,134130,University of Florida,Doctor's degree,Women,1137
+2020,134130,University of Florida,Bachelor's degree,Total,9162
+2020,134130,University of Florida,Bachelor's degree,Men,3888
+2020,134130,University of Florida,Bachelor's degree,Women,5274
+2020,134130,University of Florida,Master's degree,Total,3854
+2020,134130,University of Florida,Master's degree,Men,1836
+2020,134130,University of Florida,Master's degree,Women,2018
+2020,134130,University of Florida,Doctor's degree,Total,1830
+2020,134130,University of Florida,Doctor's degree,Men,806
+2020,134130,University of Florida,Doctor's degree,Women,1024
+2017,145637,University of Illinois at Urbana-Champaign,Bachelor's degree,Total,7817
+2017,145637,University of Illinois at Urbana-Champaign,Bachelor's degree,Men,4175
+2017,145637,University of Illinois at Urbana-Champaign,Bachelor's degree,Women,3642
+2017,145637,University of Illinois at Urbana-Champaign,Master's degree,Total,3331
+2017,145637,University of Illinois at Urbana-Champaign,Master's degree,Men,1628
+2017,145637,University of Illinois at Urbana-Champaign,Master's degree,Women,1703
+2017,145637,University of Illinois at Urbana-Champaign,Doctor's degree,Total,1095
+2017,145637,University of Illinois at Urbana-Champaign,Doctor's degree,Men,585
+2017,145637,University of Illinois at Urbana-Champaign,Doctor's degree,Women,510
+2018,145637,University of Illinois at Urbana-Champaign,Bachelor's degree,Total,7821
+2018,145637,University of Illinois at Urbana-Champaign,Bachelor's degree,Men,4285
+2018,145637,University of Illinois at Urbana-Champaign,Bachelor's degree,Women,3536
+2018,145637,University of Illinois at Urbana-Champaign,Master's degree,Total,3765
+2018,145637,University of Illinois at Urbana-Champaign,Master's degree,Men,1806
+2018,145637,University of Illinois at Urbana-Champaign,Master's degree,Women,1959
+2018,145637,University of Illinois at Urbana-Champaign,Doctor's degree,Total,1091
+2018,145637,University of Illinois at Urbana-Champaign,Doctor's degree,Men,601
+2018,145637,University of Illinois at Urbana-Champaign,Doctor's degree,Women,490
+2019,145637,University of Illinois at Urbana-Champaign,Bachelor's degree,Total,8057
+2019,145637,University of Illinois at Urbana-Champaign,Bachelor's degree,Men,4343
+2019,145637,University of Illinois at Urbana-Champaign,Bachelor's degree,Women,3714
+2019,145637,University of Illinois at Urbana-Champaign,Master's degree,Total,3962
+2019,145637,University of Illinois at Urbana-Champaign,Master's degree,Men,1973
+2019,145637,University of Illinois at Urbana-Champaign,Master's degree,Women,1989
+2019,145637,University of Illinois at Urbana-Champaign,Doctor's degree,Total,1070
+2019,145637,University of Illinois at Urbana-Champaign,Doctor's degree,Men,574
+2019,145637,University of Illinois at Urbana-Champaign,Doctor's degree,Women,496
+2020,145637,University of Illinois at Urbana-Champaign,Bachelor's degree,Total,8148
+2020,145637,University of Illinois at Urbana-Champaign,Bachelor's degree,Men,4302
+2020,145637,University of Illinois at Urbana-Champaign,Bachelor's degree,Women,3846
+2020,145637,University of Illinois at Urbana-Champaign,Master's degree,Total,4331
+2020,145637,University of Illinois at Urbana-Champaign,Master's degree,Men,2244
+2020,145637,University of Illinois at Urbana-Champaign,Master's degree,Women,2087
+2020,145637,University of Illinois at Urbana-Champaign,Doctor's degree,Total,1179
+2020,145637,University of Illinois at Urbana-Champaign,Doctor's degree,Men,645
+2020,145637,University of Illinois at Urbana-Champaign,Doctor's degree,Women,534
+2017,153658,University of Iowa,Bachelor's degree,Total,4684
+2017,153658,University of Iowa,Bachelor's degree,Men,2173
+2017,153658,University of Iowa,Bachelor's degree,Women,2511
+2017,153658,University of Iowa,Master's degree,Total,1235
+2017,153658,University of Iowa,Master's degree,Men,572
+2017,153658,University of Iowa,Master's degree,Women,663
+2017,153658,University of Iowa,Doctor's degree,Total,916
+2017,153658,University of Iowa,Doctor's degree,Men,457
+2017,153658,University of Iowa,Doctor's degree,Women,459
+2018,153658,University of Iowa,Bachelor's degree,Total,4506
+2018,153658,University of Iowa,Bachelor's degree,Men,2071
+2018,153658,University of Iowa,Bachelor's degree,Women,2435
+2018,153658,University of Iowa,Master's degree,Total,1291
+2018,153658,University of Iowa,Master's degree,Men,631
+2018,153658,University of Iowa,Master's degree,Women,660
+2018,153658,University of Iowa,Doctor's degree,Total,925
+2018,153658,University of Iowa,Doctor's degree,Men,445
+2018,153658,University of Iowa,Doctor's degree,Women,480
+2019,153658,University of Iowa,Bachelor's degree,Total,5092
+2019,153658,University of Iowa,Bachelor's degree,Men,2354
+2019,153658,University of Iowa,Bachelor's degree,Women,2738
+2019,153658,University of Iowa,Master's degree,Total,1307
+2019,153658,University of Iowa,Master's degree,Men,632
+2019,153658,University of Iowa,Master's degree,Women,675
+2019,153658,University of Iowa,Doctor's degree,Total,879
+2019,153658,University of Iowa,Doctor's degree,Men,435
+2019,153658,University of Iowa,Doctor's degree,Women,444
+2020,153658,University of Iowa,Bachelor's degree,Total,5399
+2020,153658,University of Iowa,Bachelor's degree,Men,2499
+2020,153658,University of Iowa,Bachelor's degree,Women,2900
+2020,153658,University of Iowa,Master's degree,Total,1381
+2020,153658,University of Iowa,Master's degree,Men,650
+2020,153658,University of Iowa,Master's degree,Women,731
+2020,153658,University of Iowa,Doctor's degree,Total,896
+2020,153658,University of Iowa,Doctor's degree,Men,424
+2020,153658,University of Iowa,Doctor's degree,Women,472
+2017,163286,University of Maryland-College Park,Bachelor's degree,Total,6826
+2017,163286,University of Maryland-College Park,Bachelor's degree,Men,3399
+2017,163286,University of Maryland-College Park,Bachelor's degree,Women,3427
+2017,163286,University of Maryland-College Park,Master's degree,Total,2778
+2017,163286,University of Maryland-College Park,Master's degree,Men,1422
+2017,163286,University of Maryland-College Park,Master's degree,Women,1356
+2017,163286,University of Maryland-College Park,Doctor's degree,Total,592
+2017,163286,University of Maryland-College Park,Doctor's degree,Men,312
+2017,163286,University of Maryland-College Park,Doctor's degree,Women,280
+2018,163286,University of Maryland-College Park,Bachelor's degree,Total,7083
+2018,163286,University of Maryland-College Park,Bachelor's degree,Men,3675
+2018,163286,University of Maryland-College Park,Bachelor's degree,Women,3408
+2018,163286,University of Maryland-College Park,Master's degree,Total,2867
+2018,163286,University of Maryland-College Park,Master's degree,Men,1448
+2018,163286,University of Maryland-College Park,Master's degree,Women,1419
+2018,163286,University of Maryland-College Park,Doctor's degree,Total,667
+2018,163286,University of Maryland-College Park,Doctor's degree,Men,355
+2018,163286,University of Maryland-College Park,Doctor's degree,Women,312
+2019,163286,University of Maryland-College Park,Bachelor's degree,Total,7244
+2019,163286,University of Maryland-College Park,Bachelor's degree,Men,3867
+2019,163286,University of Maryland-College Park,Bachelor's degree,Women,3377
+2019,163286,University of Maryland-College Park,Master's degree,Total,2704
+2019,163286,University of Maryland-College Park,Master's degree,Men,1340
+2019,163286,University of Maryland-College Park,Master's degree,Women,1364
+2019,163286,University of Maryland-College Park,Doctor's degree,Total,637
+2019,163286,University of Maryland-College Park,Doctor's degree,Men,345
+2019,163286,University of Maryland-College Park,Doctor's degree,Women,292
+2020,163286,University of Maryland-College Park,Bachelor's degree,Total,7764
+2020,163286,University of Maryland-College Park,Bachelor's degree,Men,3903
+2020,163286,University of Maryland-College Park,Bachelor's degree,Women,3861
+2020,163286,University of Maryland-College Park,Master's degree,Total,2693
+2020,163286,University of Maryland-College Park,Master's degree,Men,1370
+2020,163286,University of Maryland-College Park,Master's degree,Women,1323
+2020,163286,University of Maryland-College Park,Doctor's degree,Total,632
+2020,163286,University of Maryland-College Park,Doctor's degree,Men,346
+2020,163286,University of Maryland-College Park,Doctor's degree,Women,286
+2017,171100,Michigan State University,Bachelor's degree,Total,9047
+2017,171100,Michigan State University,Bachelor's degree,Men,4300
+2017,171100,Michigan State University,Bachelor's degree,Women,4747
+2017,171100,Michigan State University,Master's degree,Total,2263
+2017,171100,Michigan State University,Master's degree,Men,917
+2017,171100,Michigan State University,Master's degree,Women,1346
+2017,171100,Michigan State University,Doctor's degree,Total,1185
+2017,171100,Michigan State University,Doctor's degree,Men,607
+2017,171100,Michigan State University,Doctor's degree,Women,578
+2018,171100,Michigan State University,Bachelor's degree,Total,8908
+2018,171100,Michigan State University,Bachelor's degree,Men,4267
+2018,171100,Michigan State University,Bachelor's degree,Women,4641
+2018,171100,Michigan State University,Master's degree,Total,2237
+2018,171100,Michigan State University,Master's degree,Men,967
+2018,171100,Michigan State University,Master's degree,Women,1270
+2018,171100,Michigan State University,Doctor's degree,Total,1135
+2018,171100,Michigan State University,Doctor's degree,Men,534
+2018,171100,Michigan State University,Doctor's degree,Women,601
+2019,171100,Michigan State University,Bachelor's degree,Total,8792
+2019,171100,Michigan State University,Bachelor's degree,Men,4174
+2019,171100,Michigan State University,Bachelor's degree,Women,4618
+2019,171100,Michigan State University,Master's degree,Total,2199
+2019,171100,Michigan State University,Master's degree,Men,908
+2019,171100,Michigan State University,Master's degree,Women,1291
+2019,171100,Michigan State University,Doctor's degree,Total,1149
+2019,171100,Michigan State University,Doctor's degree,Men,558
+2019,171100,Michigan State University,Doctor's degree,Women,591
+2020,171100,Michigan State University,Bachelor's degree,Total,9291
+2020,171100,Michigan State University,Bachelor's degree,Men,4352
+2020,171100,Michigan State University,Bachelor's degree,Women,4939
+2020,171100,Michigan State University,Master's degree,Total,2058
+2020,171100,Michigan State University,Master's degree,Men,862
+2020,171100,Michigan State University,Master's degree,Women,1196
+2020,171100,Michigan State University,Doctor's degree,Total,1436
+2020,171100,Michigan State University,Doctor's degree,Men,697
+2020,171100,Michigan State University,Doctor's degree,Women,739
+2017,174066,University of Minnesota-Twin Cities,Bachelor's degree,Total,7607
+2017,174066,University of Minnesota-Twin Cities,Bachelor's degree,Men,3617
+2017,174066,University of Minnesota-Twin Cities,Bachelor's degree,Women,3990
+2017,174066,University of Minnesota-Twin Cities,Master's degree,Total,3468
+2017,174066,University of Minnesota-Twin Cities,Master's degree,Men,1567
+2017,174066,University of Minnesota-Twin Cities,Master's degree,Women,1901
+2017,174066,University of Minnesota-Twin Cities,Doctor's degree,Total,1684
+2017,174066,University of Minnesota-Twin Cities,Doctor's degree,Men,773
+2017,174066,University of Minnesota-Twin Cities,Doctor's degree,Women,911
+2018,174066,University of Minnesota-Twin Cities,Bachelor's degree,Total,7605
+2018,174066,University of Minnesota-Twin Cities,Bachelor's degree,Men,3603
+2018,174066,University of Minnesota-Twin Cities,Bachelor's degree,Women,4002
+2018,174066,University of Minnesota-Twin Cities,Master's degree,Total,3327
+2018,174066,University of Minnesota-Twin Cities,Master's degree,Men,1532
+2018,174066,University of Minnesota-Twin Cities,Master's degree,Women,1795
+2018,174066,University of Minnesota-Twin Cities,Doctor's degree,Total,1666
+2018,174066,University of Minnesota-Twin Cities,Doctor's degree,Men,764
+2018,174066,University of Minnesota-Twin Cities,Doctor's degree,Women,902
+2019,174066,University of Minnesota-Twin Cities,Bachelor's degree,Total,7844
+2019,174066,University of Minnesota-Twin Cities,Bachelor's degree,Men,3641
+2019,174066,University of Minnesota-Twin Cities,Bachelor's degree,Women,4203
+2019,174066,University of Minnesota-Twin Cities,Master's degree,Total,3370
+2019,174066,University of Minnesota-Twin Cities,Master's degree,Men,1464
+2019,174066,University of Minnesota-Twin Cities,Master's degree,Women,1906
+2019,174066,University of Minnesota-Twin Cities,Doctor's degree,Total,1748
+2019,174066,University of Minnesota-Twin Cities,Doctor's degree,Men,803
+2019,174066,University of Minnesota-Twin Cities,Doctor's degree,Women,945
+2020,174066,University of Minnesota-Twin Cities,Bachelor's degree,Total,7859
+2020,174066,University of Minnesota-Twin Cities,Bachelor's degree,Men,3643
+2020,174066,University of Minnesota-Twin Cities,Bachelor's degree,Women,4216
+2020,174066,University of Minnesota-Twin Cities,Master's degree,Total,3108
+2020,174066,University of Minnesota-Twin Cities,Master's degree,Men,1325
+2020,174066,University of Minnesota-Twin Cities,Master's degree,Women,1783
+2020,174066,University of Minnesota-Twin Cities,Doctor's degree,Total,1619
+2020,174066,University of Minnesota-Twin Cities,Doctor's degree,Men,714
+2020,174066,University of Minnesota-Twin Cities,Doctor's degree,Women,905
+2017,199120,University of North Carolina at Chapel Hill,Bachelor's degree,Total,4557
+2017,199120,University of North Carolina at Chapel Hill,Bachelor's degree,Men,1847
+2017,199120,University of North Carolina at Chapel Hill,Bachelor's degree,Women,2710
+2017,199120,University of North Carolina at Chapel Hill,Master's degree,Total,2162
+2017,199120,University of North Carolina at Chapel Hill,Master's degree,Men,1014
+2017,199120,University of North Carolina at Chapel Hill,Master's degree,Women,1148
+2017,199120,University of North Carolina at Chapel Hill,Doctor's degree,Total,1249
+2017,199120,University of North Carolina at Chapel Hill,Doctor's degree,Men,556
+2017,199120,University of North Carolina at Chapel Hill,Doctor's degree,Women,693
+2018,199120,University of North Carolina at Chapel Hill,Bachelor's degree,Total,4628
+2018,199120,University of North Carolina at Chapel Hill,Bachelor's degree,Men,1905
+2018,199120,University of North Carolina at Chapel Hill,Bachelor's degree,Women,2723
+2018,199120,University of North Carolina at Chapel Hill,Master's degree,Total,2153
+2018,199120,University of North Carolina at Chapel Hill,Master's degree,Men,991
+2018,199120,University of North Carolina at Chapel Hill,Master's degree,Women,1162
+2018,199120,University of North Carolina at Chapel Hill,Doctor's degree,Total,1208
+2018,199120,University of North Carolina at Chapel Hill,Doctor's degree,Men,525
+2018,199120,University of North Carolina at Chapel Hill,Doctor's degree,Women,683
+2019,199120,University of North Carolina at Chapel Hill,Bachelor's degree,Total,4662
+2019,199120,University of North Carolina at Chapel Hill,Bachelor's degree,Men,1909
+2019,199120,University of North Carolina at Chapel Hill,Bachelor's degree,Women,2753
+2019,199120,University of North Carolina at Chapel Hill,Master's degree,Total,2372
+2019,199120,University of North Carolina at Chapel Hill,Master's degree,Men,1139
+2019,199120,University of North Carolina at Chapel Hill,Master's degree,Women,1233
+2019,199120,University of North Carolina at Chapel Hill,Doctor's degree,Total,1179
+2019,199120,University of North Carolina at Chapel Hill,Doctor's degree,Men,515
+2019,199120,University of North Carolina at Chapel Hill,Doctor's degree,Women,664
+2020,199120,University of North Carolina at Chapel Hill,Bachelor's degree,Total,4828
+2020,199120,University of North Carolina at Chapel Hill,Bachelor's degree,Men,1931
+2020,199120,University of North Carolina at Chapel Hill,Bachelor's degree,Women,2897
+2020,199120,University of North Carolina at Chapel Hill,Master's degree,Total,2409
+2020,199120,University of North Carolina at Chapel Hill,Master's degree,Men,1086
+2020,199120,University of North Carolina at Chapel Hill,Master's degree,Women,1323
+2020,199120,University of North Carolina at Chapel Hill,Doctor's degree,Total,1242
+2020,199120,University of North Carolina at Chapel Hill,Doctor's degree,Men,535
+2020,199120,University of North Carolina at Chapel Hill,Doctor's degree,Women,707
+2017,204796,Ohio State University-Main Campus,Bachelor's degree,Total,10622
+2017,204796,Ohio State University-Main Campus,Bachelor's degree,Men,5359
+2017,204796,Ohio State University-Main Campus,Bachelor's degree,Women,5263
+2017,204796,Ohio State University-Main Campus,Master's degree,Total,2803
+2017,204796,Ohio State University-Main Campus,Master's degree,Men,1230
+2017,204796,Ohio State University-Main Campus,Master's degree,Women,1573
+2017,204796,Ohio State University-Main Campus,Doctor's degree,Total,1600
+2017,204796,Ohio State University-Main Campus,Doctor's degree,Men,789
+2017,204796,Ohio State University-Main Campus,Doctor's degree,Women,811
+2018,204796,Ohio State University-Main Campus,Bachelor's degree,Total,10761
+2018,204796,Ohio State University-Main Campus,Bachelor's degree,Men,5402
+2018,204796,Ohio State University-Main Campus,Bachelor's degree,Women,5359
+2018,204796,Ohio State University-Main Campus,Master's degree,Total,2732
+2018,204796,Ohio State University-Main Campus,Master's degree,Men,1176
+2018,204796,Ohio State University-Main Campus,Master's degree,Women,1556
+2018,204796,Ohio State University-Main Campus,Doctor's degree,Total,1662
+2018,204796,Ohio State University-Main Campus,Doctor's degree,Men,778
+2018,204796,Ohio State University-Main Campus,Doctor's degree,Women,884
+2019,204796,Ohio State University-Main Campus,Bachelor's degree,Total,10906
+2019,204796,Ohio State University-Main Campus,Bachelor's degree,Men,5459
+2019,204796,Ohio State University-Main Campus,Bachelor's degree,Women,5447
+2019,204796,Ohio State University-Main Campus,Master's degree,Total,2735
+2019,204796,Ohio State University-Main Campus,Master's degree,Men,1156
+2019,204796,Ohio State University-Main Campus,Master's degree,Women,1579
+2019,204796,Ohio State University-Main Campus,Doctor's degree,Total,1687
+2019,204796,Ohio State University-Main Campus,Doctor's degree,Men,778
+2019,204796,Ohio State University-Main Campus,Doctor's degree,Women,909
+2020,204796,Ohio State University-Main Campus,Bachelor's degree,Total,11507
+2020,204796,Ohio State University-Main Campus,Bachelor's degree,Men,5746
+2020,204796,Ohio State University-Main Campus,Bachelor's degree,Women,5761
+2020,204796,Ohio State University-Main Campus,Master's degree,Total,2886
+2020,204796,Ohio State University-Main Campus,Master's degree,Men,1201
+2020,204796,Ohio State University-Main Campus,Master's degree,Women,1685
+2020,204796,Ohio State University-Main Campus,Doctor's degree,Total,1729
+2020,204796,Ohio State University-Main Campus,Doctor's degree,Men,800
+2020,204796,Ohio State University-Main Campus,Doctor's degree,Women,929
+2017,214777,Pennsylvania State University-Main Campus,Bachelor's degree,Total,10408
+2017,214777,Pennsylvania State University-Main Campus,Bachelor's degree,Men,5499
+2017,214777,Pennsylvania State University-Main Campus,Bachelor's degree,Women,4909
+2017,214777,Pennsylvania State University-Main Campus,Master's degree,Total,1405
+2017,214777,Pennsylvania State University-Main Campus,Master's degree,Men,727
+2017,214777,Pennsylvania State University-Main Campus,Master's degree,Women,678
+2017,214777,Pennsylvania State University-Main Campus,Doctor's degree,Total,809
+2017,214777,Pennsylvania State University-Main Campus,Doctor's degree,Men,444
+2017,214777,Pennsylvania State University-Main Campus,Doctor's degree,Women,365
+2018,214777,Pennsylvania State University-Main Campus,Bachelor's degree,Total,10720
+2018,214777,Pennsylvania State University-Main Campus,Bachelor's degree,Men,5651
+2018,214777,Pennsylvania State University-Main Campus,Bachelor's degree,Women,5069
+2018,214777,Pennsylvania State University-Main Campus,Master's degree,Total,1358
+2018,214777,Pennsylvania State University-Main Campus,Master's degree,Men,702
+2018,214777,Pennsylvania State University-Main Campus,Master's degree,Women,656
+2018,214777,Pennsylvania State University-Main Campus,Doctor's degree,Total,792
+2018,214777,Pennsylvania State University-Main Campus,Doctor's degree,Men,436
+2018,214777,Pennsylvania State University-Main Campus,Doctor's degree,Women,356
+2019,214777,Pennsylvania State University-Main Campus,Bachelor's degree,Total,10052
+2019,214777,Pennsylvania State University-Main Campus,Bachelor's degree,Men,5245
+2019,214777,Pennsylvania State University-Main Campus,Bachelor's degree,Women,4807
+2019,214777,Pennsylvania State University-Main Campus,Master's degree,Total,1406
+2019,214777,Pennsylvania State University-Main Campus,Master's degree,Men,749
+2019,214777,Pennsylvania State University-Main Campus,Master's degree,Women,657
+2019,214777,Pennsylvania State University-Main Campus,Doctor's degree,Total,774
+2019,214777,Pennsylvania State University-Main Campus,Doctor's degree,Men,434
+2019,214777,Pennsylvania State University-Main Campus,Doctor's degree,Women,340
+2017,228723,Texas A & M University-College Station,Bachelor's degree,Total,11335
+2017,228723,Texas A & M University-College Station,Bachelor's degree,Men,5407
+2017,228723,Texas A & M University-College Station,Bachelor's degree,Women,5928
+2017,228723,Texas A & M University-College Station,Master's degree,Total,3216
+2017,228723,Texas A & M University-College Station,Master's degree,Men,1784
+2017,228723,Texas A & M University-College Station,Master's degree,Women,1432
+2017,228723,Texas A & M University-College Station,Doctor's degree,Total,1441
+2017,228723,Texas A & M University-College Station,Doctor's degree,Men,767
+2017,228723,Texas A & M University-College Station,Doctor's degree,Women,674
+2018,228723,Texas A & M University-College Station,Bachelor's degree,Total,12423
+2018,228723,Texas A & M University-College Station,Bachelor's degree,Men,5991
+2018,228723,Texas A & M University-College Station,Bachelor's degree,Women,6432
+2018,228723,Texas A & M University-College Station,Master's degree,Total,3385
+2018,228723,Texas A & M University-College Station,Master's degree,Men,1837
+2018,228723,Texas A & M University-College Station,Master's degree,Women,1548
+2018,228723,Texas A & M University-College Station,Doctor's degree,Total,1422
+2018,228723,Texas A & M University-College Station,Doctor's degree,Men,762
+2018,228723,Texas A & M University-College Station,Doctor's degree,Women,660
+2019,228723,Texas A & M University-College Station,Bachelor's degree,Total,12866
+2019,228723,Texas A & M University-College Station,Bachelor's degree,Men,6279
+2019,228723,Texas A & M University-College Station,Bachelor's degree,Women,6587
+2019,228723,Texas A & M University-College Station,Master's degree,Total,3474
+2019,228723,Texas A & M University-College Station,Master's degree,Men,1861
+2019,228723,Texas A & M University-College Station,Master's degree,Women,1613
+2019,228723,Texas A & M University-College Station,Doctor's degree,Total,1438
+2019,228723,Texas A & M University-College Station,Doctor's degree,Men,763
+2019,228723,Texas A & M University-College Station,Doctor's degree,Women,675
+2020,228723,Texas A & M University-College Station,Bachelor's degree,Total,12798
+2020,228723,Texas A & M University-College Station,Bachelor's degree,Men,6247
+2020,228723,Texas A & M University-College Station,Bachelor's degree,Women,6551
+2020,228723,Texas A & M University-College Station,Master's degree,Total,3553
+2020,228723,Texas A & M University-College Station,Master's degree,Men,1932
+2020,228723,Texas A & M University-College Station,Master's degree,Women,1621
+2020,228723,Texas A & M University-College Station,Doctor's degree,Total,1471
+2020,228723,Texas A & M University-College Station,Doctor's degree,Men,763
+2020,228723,Texas A & M University-College Station,Doctor's degree,Women,708
+2017,228778,The University of Texas at Austin,Bachelor's degree,Total,9627
+2017,228778,The University of Texas at Austin,Bachelor's degree,Men,4368
+2017,228778,The University of Texas at Austin,Bachelor's degree,Women,5259
+2017,228778,The University of Texas at Austin,Master's degree,Total,2953
+2017,228778,The University of Texas at Austin,Master's degree,Men,1564
+2017,228778,The University of Texas at Austin,Master's degree,Women,1389
+2017,228778,The University of Texas at Austin,Doctor's degree,Total,1284
+2017,228778,The University of Texas at Austin,Doctor's degree,Men,691
+2017,228778,The University of Texas at Austin,Doctor's degree,Women,593
+2018,228778,The University of Texas at Austin,Bachelor's degree,Total,9420
+2018,228778,The University of Texas at Austin,Bachelor's degree,Men,4390
+2018,228778,The University of Texas at Austin,Bachelor's degree,Women,5030
+2018,228778,The University of Texas at Austin,Master's degree,Total,3035
+2018,228778,The University of Texas at Austin,Master's degree,Men,1558
+2018,228778,The University of Texas at Austin,Master's degree,Women,1477
+2018,228778,The University of Texas at Austin,Doctor's degree,Total,1260
+2018,228778,The University of Texas at Austin,Doctor's degree,Men,682
+2018,228778,The University of Texas at Austin,Doctor's degree,Women,578
+2019,228778,The University of Texas at Austin,Bachelor's degree,Total,9582
+2019,228778,The University of Texas at Austin,Bachelor's degree,Men,4417
+2019,228778,The University of Texas at Austin,Bachelor's degree,Women,5165
+2019,228778,The University of Texas at Austin,Master's degree,Total,2966
+2019,228778,The University of Texas at Austin,Master's degree,Men,1500
+2019,228778,The University of Texas at Austin,Master's degree,Women,1466
+2019,228778,The University of Texas at Austin,Doctor's degree,Total,1302
+2019,228778,The University of Texas at Austin,Doctor's degree,Men,709
+2019,228778,The University of Texas at Austin,Doctor's degree,Women,593
+2020,228778,The University of Texas at Austin,Bachelor's degree,Total,10308
+2020,228778,The University of Texas at Austin,Bachelor's degree,Men,4705
+2020,228778,The University of Texas at Austin,Bachelor's degree,Women,5603
+2020,228778,The University of Texas at Austin,Master's degree,Total,2964
+2020,228778,The University of Texas at Austin,Master's degree,Men,1492
+2020,228778,The University of Texas at Austin,Master's degree,Women,1472
+2020,228778,The University of Texas at Austin,Doctor's degree,Total,1309
+2020,228778,The University of Texas at Austin,Doctor's degree,Men,695
+2020,228778,The University of Texas at Austin,Doctor's degree,Women,614
+2017,236948,University of Washington-Seattle Campus,Bachelor's degree,Total,7479
+2017,236948,University of Washington-Seattle Campus,Bachelor's degree,Men,3462
+2017,236948,University of Washington-Seattle Campus,Bachelor's degree,Women,4017
+2017,236948,University of Washington-Seattle Campus,Master's degree,Total,3856
+2017,236948,University of Washington-Seattle Campus,Master's degree,Men,1785
+2017,236948,University of Washington-Seattle Campus,Master's degree,Women,2071
+2017,236948,University of Washington-Seattle Campus,Doctor's degree,Total,1336
+2017,236948,University of Washington-Seattle Campus,Doctor's degree,Men,592
+2017,236948,University of Washington-Seattle Campus,Doctor's degree,Women,744
+2018,236948,University of Washington-Seattle Campus,Bachelor's degree,Total,7701
+2018,236948,University of Washington-Seattle Campus,Bachelor's degree,Men,3523
+2018,236948,University of Washington-Seattle Campus,Bachelor's degree,Women,4178
+2018,236948,University of Washington-Seattle Campus,Master's degree,Total,3906
+2018,236948,University of Washington-Seattle Campus,Master's degree,Men,1811
+2018,236948,University of Washington-Seattle Campus,Master's degree,Women,2095
+2018,236948,University of Washington-Seattle Campus,Doctor's degree,Total,1371
+2018,236948,University of Washington-Seattle Campus,Doctor's degree,Men,655
+2018,236948,University of Washington-Seattle Campus,Doctor's degree,Women,716
+2019,236948,University of Washington-Seattle Campus,Bachelor's degree,Total,8027
+2019,236948,University of Washington-Seattle Campus,Bachelor's degree,Men,3684
+2019,236948,University of Washington-Seattle Campus,Bachelor's degree,Women,4343
+2019,236948,University of Washington-Seattle Campus,Master's degree,Total,4057
+2019,236948,University of Washington-Seattle Campus,Master's degree,Men,1869
+2019,236948,University of Washington-Seattle Campus,Master's degree,Women,2188
+2019,236948,University of Washington-Seattle Campus,Doctor's degree,Total,1467
+2019,236948,University of Washington-Seattle Campus,Doctor's degree,Men,658
+2019,236948,University of Washington-Seattle Campus,Doctor's degree,Women,809
+2020,236948,University of Washington-Seattle Campus,Bachelor's degree,Total,7887
+2020,236948,University of Washington-Seattle Campus,Bachelor's degree,Men,3630
+2020,236948,University of Washington-Seattle Campus,Bachelor's degree,Women,4257
+2020,236948,University of Washington-Seattle Campus,Master's degree,Total,4297
+2020,236948,University of Washington-Seattle Campus,Master's degree,Men,1988
+2020,236948,University of Washington-Seattle Campus,Master's degree,Women,2309
+2020,236948,University of Washington-Seattle Campus,Doctor's degree,Total,1436
+2020,236948,University of Washington-Seattle Campus,Doctor's degree,Men,634
+2020,236948,University of Washington-Seattle Campus,Doctor's degree,Women,802
+2017,240444,University of Wisconsin-Madison,Bachelor's degree,Total,6916
+2017,240444,University of Wisconsin-Madison,Bachelor's degree,Men,3267
+2017,240444,University of Wisconsin-Madison,Bachelor's degree,Women,3649
+2017,240444,University of Wisconsin-Madison,Master's degree,Total,2212
+2017,240444,University of Wisconsin-Madison,Master's degree,Men,1059
+2017,240444,University of Wisconsin-Madison,Master's degree,Women,1153
+2017,240444,University of Wisconsin-Madison,Doctor's degree,Total,1432
+2017,240444,University of Wisconsin-Madison,Doctor's degree,Men,726
+2017,240444,University of Wisconsin-Madison,Doctor's degree,Women,706
+2018,240444,University of Wisconsin-Madison,Bachelor's degree,Total,7188
+2018,240444,University of Wisconsin-Madison,Bachelor's degree,Men,3415
+2018,240444,University of Wisconsin-Madison,Bachelor's degree,Women,3773
+2018,240444,University of Wisconsin-Madison,Master's degree,Total,2238
+2018,240444,University of Wisconsin-Madison,Master's degree,Men,1084
+2018,240444,University of Wisconsin-Madison,Master's degree,Women,1154
+2018,240444,University of Wisconsin-Madison,Doctor's degree,Total,1480
+2018,240444,University of Wisconsin-Madison,Doctor's degree,Men,731
+2018,240444,University of Wisconsin-Madison,Doctor's degree,Women,749
+2019,240444,University of Wisconsin-Madison,Bachelor's degree,Total,7197
+2019,240444,University of Wisconsin-Madison,Bachelor's degree,Men,3486
+2019,240444,University of Wisconsin-Madison,Bachelor's degree,Women,3711
+2019,240444,University of Wisconsin-Madison,Master's degree,Total,2313
+2019,240444,University of Wisconsin-Madison,Master's degree,Men,1139
+2019,240444,University of Wisconsin-Madison,Master's degree,Women,1174
+2019,240444,University of Wisconsin-Madison,Doctor's degree,Total,1536
+2019,240444,University of Wisconsin-Madison,Doctor's degree,Men,781
+2019,240444,University of Wisconsin-Madison,Doctor's degree,Women,755
+2020,240444,University of Wisconsin-Madison,Bachelor's degree,Total,7529
+2020,240444,University of Wisconsin-Madison,Bachelor's degree,Men,3558
+2020,240444,University of Wisconsin-Madison,Bachelor's degree,Women,3971
+2020,240444,University of Wisconsin-Madison,Master's degree,Total,2319
+2020,240444,University of Wisconsin-Madison,Master's degree,Men,1098
+2020,240444,University of Wisconsin-Madison,Master's degree,Women,1221
+2020,240444,University of Wisconsin-Madison,Doctor's degree,Total,1345
+2020,240444,University of Wisconsin-Madison,Doctor's degree,Men,647
+2020,240444,University of Wisconsin-Madison,Doctor's degree,Women,698

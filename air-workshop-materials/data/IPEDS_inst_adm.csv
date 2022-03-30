@@ -1,0 +1,64 @@
+﻿year,unitid,instnm,n_applicants,n_admits,n_enrl,test_req,n_sat,pct_sat,sat_score,n_act,pct_act,act_score
+2017,104179,University of Arizona,33608,28089,7360,Recommended,,,,,,
+2018,104179,University of Arizona,39941,33717,7750,Considered by not required,4076,53,1190,4153,54,35
+2019,104179,University of Arizona,40854,34558,7683,Considered by not required,3932,51,1235,3821,50,35.5
+2020,104179,University of Arizona,43540,37064,7334,Considered by not required,3380,46,1220,3600,49,35.5
+2017,110644,University of California-Davis,70952,30762,5868,Required,4766,81,1245,3280,56,41
+2018,110644,University of California-Davis,78022,32046,6393,Required,5577,87,1280,2838,44,40
+2019,110644,University of California-Davis,78093,30358,5957,Required,5325,89,1290,2312,39,40
+2020,110644,University of California-Davis,76897,35645,6144,Required,5509,90,1280,2024,33,41.5
+2017,110662,University of California-Los Angeles,102225,16456,6038,Required,4610,76,1335,3758,62,46
+2018,110662,University of California-Los Angeles,113754,15970,6240,Required,4869,78,1405,3337,53,47
+2019,110662,University of California-Los Angeles,111321,13720,5920,Required,4802,81,1415,2718,46,46.5
+2020,110662,University of California-Los Angeles,108870,15602,6386,Other,,,,,,
+2017,134130,University of Florida,32747,13758,6428,Required,5131,79,1320,4620,71,44
+2018,134130,University of Florida,38905,15077,6801,Required,5595,82,1360,3879,57,43
+2019,134130,University of Florida,38069,13925,6554,Required,5540,85,1390,3281,50,44.5
+2020,134130,University of Florida,48193,15002,6333,Required,5133,81,1375,3172,50,45.5
+2017,145637,University of Illinois at Urbana-Champaign,38965,23974,7518,Required,1682,22,1420,6411,85,42
+2018,145637,University of Illinois at Urbana-Champaign,39406,24496,7609,Required,4785,63,1330,4824,63,42
+2019,145637,University of Illinois at Urbana-Champaign,43509,25684,7665,Required,6030,79,1340,4213,55,42
+2020,145637,University of Illinois at Urbana-Champaign,43473,27520,7529,Required,5630,75,1330,3753,50,43.5
+2017,153658,University of Iowa,27734,23862,5027,Required,438,9,1255,4782,95,37
+2018,153658,University of Iowa,26706,22077,4806,Required,1253,26,1225,4307,90,37
+2019,153658,University of Iowa,25928,21404,4986,Required,1440,29,1235,4320,87,36.5
+2020,153658,University of Iowa,24132,20338,4510,Required,1197,27,1210,3919,87,36.5
+2017,163286,University of Maryland-College Park,33922,15096,4156,Required,2563,62,1375,1588,38,45.5
+2018,163286,University of Maryland-College Park,33497,15796,4748,Required,3355,71,1380,1357,29,45.5
+2019,163286,University of Maryland-College Park,33012,14585,4279,Required,3264,76,1375,1022,24,46
+2020,163286,University of Maryland-College Park,32147,16382,4347,Required,3363,77,1375,946,22,47
+2017,171100,Michigan State University,36143,25860,8366,Required,5039,60,1210,4772,57,37
+2018,171100,Michigan State University,33129,25733,8688,Required,6589,76,1210,3698,43,37.5
+2019,171100,Michigan State University,44322,31522,8801,Required,6882,78,1210,3336,38,37.5
+2020,171100,Michigan State University,45426,34663,8389,Required,6697,80,1200,3042,36,37.5
+2017,174066,University of Minnesota-Twin Cities,43731,21692,6201,Required,799,13,1375,5713,92,41.5
+2018,174066,University of Minnesota-Twin Cities,43444,22525,5977,Required,830,14,1375,5448,91,41.5
+2019,174066,University of Minnesota-Twin Cities,40673,23076,6278,Required,1127,18,1370,5560,89,41.5
+2020,174066,University of Minnesota-Twin Cities,38237,26628,5966,Required,858,14,1350,5422,91,40.5
+2017,199120,University of North Carolina at Chapel Hill,39650,9673,4356,Required,1678,39,1365,2790,64,44.5
+2018,199120,University of North Carolina at Chapel Hill,41939,9525,4327,Required,1919,44,1375,2490,58,45.5
+2019,199120,University of North Carolina at Chapel Hill,42465,9610,4182,Required,1767,42,1405,2135,51,44.5
+2020,199120,University of North Carolina at Chapel Hill,41773,10445,4445,Required,2176,49,1385,2331,52,44.5
+2017,204796,Ohio State University-Main Campus,47782,22964,7209,Required,2101,29,1355,6223,86,42.5
+2018,204796,Ohio State University-Main Campus,48077,24988,7944,Required,2781,35,1345,6383,80,43
+2019,204796,Ohio State University-Main Campus,47703,25634,7716,Required,3028,39,1355,6005,78,44
+2020,204796,Ohio State University-Main Campus,49087,33619,8679,Considered by not required,3140,36,1320,6973,80,42
+2017,214777,Pennsylvania State University-Main Campus,56114,28233,7863,Required,5098,65,1250,2351,30,40
+2018,214777,Pennsylvania State University-Main Campus,52742,29793,8075,Required,5995,74,1260,1736,22,40
+2019,214777,Pennsylvania State University-Main Campus,95970,72880,15989,Required,12350,77,1190,2072,13,38
+2017,228723,Texas A & M University-College Station,36669,25866,11639,Required,6430,55,1250,5209,45,40
+2018,228723,Texas A & M University-College Station,36000,24343,11133,Required,6781,61,1275,4352,39,40.5
+2019,228723,Texas A & M University-College Station,42476,24549,10613,Required,6631,62,1275,3986,38,41.5
+2020,228723,Texas A & M University-College Station,42872,27125,11110,Required,6734,61,1270,4376,39,42
+2017,228778,The University of Texas at Austin,51033,18620,8381,Required,6160,73,1340,5425,64,42.5
+2018,228778,The University of Texas at Austin,50575,19482,8960,Required,7013,78,1355,4969,56,43.5
+2019,228778,The University of Texas at Austin,53525,17029,8170,Required,6416,79,1355,4397,54,43.5
+2020,228778,The University of Texas at Austin,57241,18290,8459,Required,6701,79,1340,4005,47,42.5
+2017,236948,University of Washington-Seattle Campus,44877,20833,6793,Required,5076,75,1305,2712,40,43
+2018,236948,University of Washington-Seattle Campus,45907,22350,7161,Required,5712,80,1340,2246,31,43
+2019,236948,University of Washington-Seattle Campus,45579,23592,6992,Required,5638,81,1345,2100,30,43.5
+2020,236948,University of Washington-Seattle Campus,43778,24456,7027,Required,5692,81,1326.5,1943,28,43.5
+2017,240444,University of Wisconsin-Madison,35596,19153,6609,Required,1122,17,1365,5876,89,42.5
+2018,240444,University of Wisconsin-Madison,42727,22104,6862,Required,1588,23,1365,5736,84,43
+2019,240444,University of Wisconsin-Madison,43896,23886,7550,Required,2081,28,1390,5964,79,43
+2020,240444,University of Wisconsin-Madison,45915,26286,7306,Considered by not required,1968,27,1360,5697,78,43

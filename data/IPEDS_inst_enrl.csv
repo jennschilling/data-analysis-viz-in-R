@@ -1,0 +1,568 @@
+﻿year,unitid,instnm,lstudy,gender,n_enrl
+2017,104179,University of Arizona,All students,Total,43751
+2017,104179,University of Arizona,All students,Men,21058
+2017,104179,University of Arizona,All students,Women,22693
+2017,104179,University of Arizona,Undergraduate,Total,34101
+2017,104179,University of Arizona,Undergraduate,Men,16435
+2017,104179,University of Arizona,Undergraduate,Women,17666
+2017,104179,University of Arizona,Graduate,Total,9650
+2017,104179,University of Arizona,Graduate,Men,4623
+2017,104179,University of Arizona,Graduate,Women,5027
+2018,104179,University of Arizona,All students,Total,44097
+2018,104179,University of Arizona,All students,Men,20993
+2018,104179,University of Arizona,All students,Women,23104
+2018,104179,University of Arizona,Undergraduate,Total,34153
+2018,104179,University of Arizona,Undergraduate,Men,16276
+2018,104179,University of Arizona,Undergraduate,Women,17877
+2018,104179,University of Arizona,Graduate,Total,9944
+2018,104179,University of Arizona,Graduate,Men,4717
+2018,104179,University of Arizona,Graduate,Women,5227
+2019,104179,University of Arizona,All students,Total,44577
+2019,104179,University of Arizona,All students,Men,20815
+2019,104179,University of Arizona,All students,Women,23762
+2019,104179,University of Arizona,Undergraduate,Total,34516
+2019,104179,University of Arizona,Undergraduate,Men,16113
+2019,104179,University of Arizona,Undergraduate,Women,18403
+2019,104179,University of Arizona,Graduate,Total,10061
+2019,104179,University of Arizona,Graduate,Men,4702
+2019,104179,University of Arizona,Graduate,Women,5359
+2020,104179,University of Arizona,All students,Total,45601
+2020,104179,University of Arizona,All students,Men,20578
+2020,104179,University of Arizona,All students,Women,25023
+2020,104179,University of Arizona,Undergraduate,Total,35357
+2020,104179,University of Arizona,Undergraduate,Men,15940
+2020,104179,University of Arizona,Undergraduate,Women,19417
+2020,104179,University of Arizona,Graduate,Total,10244
+2020,104179,University of Arizona,Graduate,Men,4638
+2020,104179,University of Arizona,Graduate,Women,5606
+2017,110644,University of California-Davis,All students,Total,37380
+2017,110644,University of California-Davis,All students,Men,15568
+2017,110644,University of California-Davis,All students,Women,21812
+2017,110644,University of California-Davis,Undergraduate,Total,30066
+2017,110644,University of California-Davis,Undergraduate,Men,12230
+2017,110644,University of California-Davis,Undergraduate,Women,17836
+2017,110644,University of California-Davis,Graduate,Total,7314
+2017,110644,University of California-Davis,Graduate,Men,3338
+2017,110644,University of California-Davis,Graduate,Women,3976
+2018,110644,University of California-Davis,All students,Total,38167
+2018,110644,University of California-Davis,All students,Men,15539
+2018,110644,University of California-Davis,All students,Women,22628
+2018,110644,University of California-Davis,Undergraduate,Total,30718
+2018,110644,University of California-Davis,Undergraduate,Men,12174
+2018,110644,University of California-Davis,Undergraduate,Women,18544
+2018,110644,University of California-Davis,Graduate,Total,7449
+2018,110644,University of California-Davis,Graduate,Men,3365
+2018,110644,University of California-Davis,Graduate,Women,4084
+2019,110644,University of California-Davis,All students,Total,38634
+2019,110644,University of California-Davis,All students,Men,15546
+2019,110644,University of California-Davis,All students,Women,23088
+2019,110644,University of California-Davis,Undergraduate,Total,30982
+2019,110644,University of California-Davis,Undergraduate,Men,12170
+2019,110644,University of California-Davis,Undergraduate,Women,18812
+2019,110644,University of California-Davis,Graduate,Total,7652
+2019,110644,University of California-Davis,Graduate,Men,3376
+2019,110644,University of California-Davis,Graduate,Women,4276
+2020,110644,University of California-Davis,All students,Total,39074
+2020,110644,University of California-Davis,All students,Men,15647
+2020,110644,University of California-Davis,All students,Women,23427
+2020,110644,University of California-Davis,Undergraduate,Total,31162
+2020,110644,University of California-Davis,Undergraduate,Men,12177
+2020,110644,University of California-Davis,Undergraduate,Women,18985
+2020,110644,University of California-Davis,Graduate,Total,7912
+2020,110644,University of California-Davis,Graduate,Men,3470
+2020,110644,University of California-Davis,Graduate,Women,4442
+2017,110662,University of California-Los Angeles,All students,Total,44027
+2017,110662,University of California-Los Angeles,All students,Men,20181
+2017,110662,University of California-Los Angeles,All students,Women,23846
+2017,110662,University of California-Los Angeles,Undergraduate,Total,31002
+2017,110662,University of California-Los Angeles,Undergraduate,Men,13216
+2017,110662,University of California-Los Angeles,Undergraduate,Women,17786
+2017,110662,University of California-Los Angeles,Graduate,Total,13025
+2017,110662,University of California-Los Angeles,Graduate,Men,6965
+2017,110662,University of California-Los Angeles,Graduate,Women,6060
+2018,110662,University of California-Los Angeles,All students,Total,44537
+2018,110662,University of California-Los Angeles,All students,Men,20197
+2018,110662,University of California-Los Angeles,All students,Women,24340
+2018,110662,University of California-Los Angeles,Undergraduate,Total,31577
+2018,110662,University of California-Los Angeles,Undergraduate,Men,13311
+2018,110662,University of California-Los Angeles,Undergraduate,Women,18266
+2018,110662,University of California-Los Angeles,Graduate,Total,12960
+2018,110662,University of California-Los Angeles,Graduate,Men,6886
+2018,110662,University of California-Los Angeles,Graduate,Women,6074
+2019,110662,University of California-Los Angeles,All students,Total,44371
+2019,110662,University of California-Los Angeles,All students,Men,19846
+2019,110662,University of California-Los Angeles,All students,Women,24525
+2019,110662,University of California-Los Angeles,Undergraduate,Total,31543
+2019,110662,University of California-Los Angeles,Undergraduate,Men,13120
+2019,110662,University of California-Los Angeles,Undergraduate,Women,18423
+2019,110662,University of California-Los Angeles,Graduate,Total,12828
+2019,110662,University of California-Los Angeles,Graduate,Men,6726
+2019,110662,University of California-Los Angeles,Graduate,Women,6102
+2020,110662,University of California-Los Angeles,All students,Total,44589
+2020,110662,University of California-Los Angeles,All students,Men,19765
+2020,110662,University of California-Los Angeles,All students,Women,24824
+2020,110662,University of California-Los Angeles,Undergraduate,Total,31636
+2020,110662,University of California-Los Angeles,Undergraduate,Men,13103
+2020,110662,University of California-Los Angeles,Undergraduate,Women,18533
+2020,110662,University of California-Los Angeles,Graduate,Total,12953
+2020,110662,University of California-Los Angeles,Graduate,Men,6662
+2020,110662,University of California-Los Angeles,Graduate,Women,6291
+2017,134130,University of Florida,All students,Total,52669
+2017,134130,University of Florida,All students,Men,23618
+2017,134130,University of Florida,All students,Women,29051
+2017,134130,University of Florida,Undergraduate,Total,35247
+2017,134130,University of Florida,Undergraduate,Men,15525
+2017,134130,University of Florida,Undergraduate,Women,19722
+2017,134130,University of Florida,Graduate,Total,17422
+2017,134130,University of Florida,Graduate,Men,8093
+2017,134130,University of Florida,Graduate,Women,9329
+2018,134130,University of Florida,All students,Total,52218
+2018,134130,University of Florida,All students,Men,23093
+2018,134130,University of Florida,All students,Women,29125
+2018,134130,University of Florida,Undergraduate,Total,35491
+2018,134130,University of Florida,Undergraduate,Men,15504
+2018,134130,University of Florida,Undergraduate,Women,19987
+2018,134130,University of Florida,Graduate,Total,16727
+2018,134130,University of Florida,Graduate,Men,7589
+2018,134130,University of Florida,Graduate,Women,9138
+2019,134130,University of Florida,All students,Total,52407
+2019,134130,University of Florida,All students,Men,23244
+2019,134130,University of Florida,All students,Women,29163
+2019,134130,University of Florida,Undergraduate,Total,35405
+2019,134130,University of Florida,Undergraduate,Men,15465
+2019,134130,University of Florida,Undergraduate,Women,19940
+2019,134130,University of Florida,Graduate,Total,17002
+2019,134130,University of Florida,Graduate,Men,7779
+2019,134130,University of Florida,Graduate,Women,9223
+2020,134130,University of Florida,All students,Total,53372
+2020,134130,University of Florida,All students,Men,23183
+2020,134130,University of Florida,All students,Women,30189
+2020,134130,University of Florida,Undergraduate,Total,34931
+2020,134130,University of Florida,Undergraduate,Men,15166
+2020,134130,University of Florida,Undergraduate,Women,19765
+2020,134130,University of Florida,Graduate,Total,18441
+2020,134130,University of Florida,Graduate,Men,8017
+2020,134130,University of Florida,Graduate,Women,10424
+2017,145637,University of Illinois at Urbana-Champaign,All students,Total,48216
+2017,145637,University of Illinois at Urbana-Champaign,All students,Men,26153
+2017,145637,University of Illinois at Urbana-Champaign,All students,Women,22063
+2017,145637,University of Illinois at Urbana-Champaign,Undergraduate,Total,33955
+2017,145637,University of Illinois at Urbana-Champaign,Undergraduate,Men,18578
+2017,145637,University of Illinois at Urbana-Champaign,Undergraduate,Women,15377
+2017,145637,University of Illinois at Urbana-Champaign,Graduate,Total,14261
+2017,145637,University of Illinois at Urbana-Champaign,Graduate,Men,7575
+2017,145637,University of Illinois at Urbana-Champaign,Graduate,Women,6686
+2018,145637,University of Illinois at Urbana-Champaign,All students,Total,49702
+2018,145637,University of Illinois at Urbana-Champaign,All students,Men,26907
+2018,145637,University of Illinois at Urbana-Champaign,All students,Women,22795
+2018,145637,University of Illinois at Urbana-Champaign,Undergraduate,Total,33915
+2018,145637,University of Illinois at Urbana-Champaign,Undergraduate,Men,18385
+2018,145637,University of Illinois at Urbana-Champaign,Undergraduate,Women,15530
+2018,145637,University of Illinois at Urbana-Champaign,Graduate,Total,15787
+2018,145637,University of Illinois at Urbana-Champaign,Graduate,Men,8522
+2018,145637,University of Illinois at Urbana-Champaign,Graduate,Women,7265
+2019,145637,University of Illinois at Urbana-Champaign,All students,Total,51605
+2019,145637,University of Illinois at Urbana-Champaign,All students,Men,27884
+2019,145637,University of Illinois at Urbana-Champaign,All students,Women,23721
+2019,145637,University of Illinois at Urbana-Champaign,Undergraduate,Total,34120
+2019,145637,University of Illinois at Urbana-Champaign,Undergraduate,Men,18352
+2019,145637,University of Illinois at Urbana-Champaign,Undergraduate,Women,15768
+2019,145637,University of Illinois at Urbana-Champaign,Graduate,Total,17485
+2019,145637,University of Illinois at Urbana-Champaign,Graduate,Men,9532
+2019,145637,University of Illinois at Urbana-Champaign,Graduate,Women,7953
+2020,145637,University of Illinois at Urbana-Champaign,All students,Total,52679
+2020,145637,University of Illinois at Urbana-Champaign,All students,Men,28685
+2020,145637,University of Illinois at Urbana-Champaign,All students,Women,23994
+2020,145637,University of Illinois at Urbana-Champaign,Undergraduate,Total,33683
+2020,145637,University of Illinois at Urbana-Champaign,Undergraduate,Men,18161
+2020,145637,University of Illinois at Urbana-Champaign,Undergraduate,Women,15522
+2020,145637,University of Illinois at Urbana-Champaign,Graduate,Total,18996
+2020,145637,University of Illinois at Urbana-Champaign,Graduate,Men,10524
+2020,145637,University of Illinois at Urbana-Champaign,Graduate,Women,8472
+2017,153658,University of Iowa,All students,Total,32166
+2017,153658,University of Iowa,All students,Men,15290
+2017,153658,University of Iowa,All students,Women,16876
+2017,153658,University of Iowa,Undergraduate,Total,24503
+2017,153658,University of Iowa,Undergraduate,Men,11561
+2017,153658,University of Iowa,Undergraduate,Women,12942
+2017,153658,University of Iowa,Graduate,Total,7663
+2017,153658,University of Iowa,Graduate,Men,3729
+2017,153658,University of Iowa,Graduate,Women,3934
+2018,153658,University of Iowa,All students,Total,31656
+2018,153658,University of Iowa,All students,Men,14867
+2018,153658,University of Iowa,All students,Women,16789
+2018,153658,University of Iowa,Undergraduate,Total,23989
+2018,153658,University of Iowa,Undergraduate,Men,11191
+2018,153658,University of Iowa,Undergraduate,Women,12798
+2018,153658,University of Iowa,Graduate,Total,7667
+2018,153658,University of Iowa,Graduate,Men,3676
+2018,153658,University of Iowa,Graduate,Women,3991
+2019,153658,University of Iowa,All students,Total,31240
+2019,153658,University of Iowa,All students,Men,14507
+2019,153658,University of Iowa,All students,Women,16733
+2019,153658,University of Iowa,Undergraduate,Total,23482
+2019,153658,University of Iowa,Undergraduate,Men,10830
+2019,153658,University of Iowa,Undergraduate,Women,12652
+2019,153658,University of Iowa,Graduate,Total,7758
+2019,153658,University of Iowa,Graduate,Men,3677
+2019,153658,University of Iowa,Graduate,Women,4081
+2020,153658,University of Iowa,All students,Total,30318
+2020,153658,University of Iowa,All students,Men,13791
+2020,153658,University of Iowa,All students,Women,16527
+2020,153658,University of Iowa,Undergraduate,Total,22304
+2020,153658,University of Iowa,Undergraduate,Men,10091
+2020,153658,University of Iowa,Undergraduate,Women,12213
+2020,153658,University of Iowa,Graduate,Total,8014
+2020,153658,University of Iowa,Graduate,Men,3700
+2020,153658,University of Iowa,Graduate,Women,4314
+2017,163286,University of Maryland-College Park,All students,Total,40521
+2017,163286,University of Maryland-College Park,All students,Men,21462
+2017,163286,University of Maryland-College Park,All students,Women,19059
+2017,163286,University of Maryland-College Park,Undergraduate,Total,29868
+2017,163286,University of Maryland-College Park,Undergraduate,Men,15945
+2017,163286,University of Maryland-College Park,Undergraduate,Women,13923
+2017,163286,University of Maryland-College Park,Graduate,Total,10653
+2017,163286,University of Maryland-College Park,Graduate,Men,5517
+2017,163286,University of Maryland-College Park,Graduate,Women,5136
+2018,163286,University of Maryland-College Park,All students,Total,41200
+2018,163286,University of Maryland-College Park,All students,Men,21681
+2018,163286,University of Maryland-College Park,All students,Women,19519
+2018,163286,University of Maryland-College Park,Undergraduate,Total,30762
+2018,163286,University of Maryland-College Park,Undergraduate,Men,16299
+2018,163286,University of Maryland-College Park,Undergraduate,Women,14463
+2018,163286,University of Maryland-College Park,Graduate,Total,10438
+2018,163286,University of Maryland-College Park,Graduate,Men,5382
+2018,163286,University of Maryland-College Park,Graduate,Women,5056
+2019,163286,University of Maryland-College Park,All students,Total,40743
+2019,163286,University of Maryland-College Park,All students,Men,21062
+2019,163286,University of Maryland-College Park,All students,Women,19681
+2019,163286,University of Maryland-College Park,Undergraduate,Total,30511
+2019,163286,University of Maryland-College Park,Undergraduate,Men,15857
+2019,163286,University of Maryland-College Park,Undergraduate,Women,14654
+2019,163286,University of Maryland-College Park,Graduate,Total,10232
+2019,163286,University of Maryland-College Park,Graduate,Men,5205
+2019,163286,University of Maryland-College Park,Graduate,Women,5027
+2020,163286,University of Maryland-College Park,All students,Total,40709
+2020,163286,University of Maryland-College Park,All students,Men,20991
+2020,163286,University of Maryland-College Park,All students,Women,19718
+2020,163286,University of Maryland-College Park,Undergraduate,Total,30875
+2020,163286,University of Maryland-College Park,Undergraduate,Men,16047
+2020,163286,University of Maryland-College Park,Undergraduate,Women,14828
+2020,163286,University of Maryland-College Park,Graduate,Total,9834
+2020,163286,University of Maryland-College Park,Graduate,Men,4944
+2020,163286,University of Maryland-College Park,Graduate,Women,4890
+2017,171100,Michigan State University,All students,Total,50019
+2017,171100,Michigan State University,All students,Men,24193
+2017,171100,Michigan State University,All students,Women,25826
+2017,171100,Michigan State University,Undergraduate,Total,38996
+2017,171100,Michigan State University,Undergraduate,Men,19292
+2017,171100,Michigan State University,Undergraduate,Women,19704
+2017,171100,Michigan State University,Graduate,Total,11023
+2017,171100,Michigan State University,Graduate,Men,4901
+2017,171100,Michigan State University,Graduate,Women,6122
+2018,171100,Michigan State University,All students,Total,50351
+2018,171100,Michigan State University,All students,Men,24237
+2018,171100,Michigan State University,All students,Women,26114
+2018,171100,Michigan State University,Undergraduate,Total,39423
+2018,171100,Michigan State University,Undergraduate,Men,19438
+2018,171100,Michigan State University,Undergraduate,Women,19985
+2018,171100,Michigan State University,Graduate,Total,10928
+2018,171100,Michigan State University,Graduate,Men,4799
+2018,171100,Michigan State University,Graduate,Women,6129
+2019,171100,Michigan State University,All students,Total,49809
+2019,171100,Michigan State University,All students,Men,23927
+2019,171100,Michigan State University,All students,Women,25882
+2019,171100,Michigan State University,Undergraduate,Total,39176
+2019,171100,Michigan State University,Undergraduate,Men,19352
+2019,171100,Michigan State University,Undergraduate,Women,19824
+2019,171100,Michigan State University,Graduate,Total,10633
+2019,171100,Michigan State University,Graduate,Men,4575
+2019,171100,Michigan State University,Graduate,Women,6058
+2020,171100,Michigan State University,All students,Total,49695
+2020,171100,Michigan State University,All students,Men,23550
+2020,171100,Michigan State University,All students,Women,26145
+2020,171100,Michigan State University,Undergraduate,Total,38491
+2020,171100,Michigan State University,Undergraduate,Men,18731
+2020,171100,Michigan State University,Undergraduate,Women,19760
+2020,171100,Michigan State University,Graduate,Total,11204
+2020,171100,Michigan State University,Graduate,Men,4819
+2020,171100,Michigan State University,Graduate,Women,6385
+2017,174066,University of Minnesota-Twin Cities,All students,Total,51848
+2017,174066,University of Minnesota-Twin Cities,All students,Men,24308
+2017,174066,University of Minnesota-Twin Cities,All students,Women,27540
+2017,174066,University of Minnesota-Twin Cities,Undergraduate,Total,35433
+2017,174066,University of Minnesota-Twin Cities,Undergraduate,Men,16814
+2017,174066,University of Minnesota-Twin Cities,Undergraduate,Women,18619
+2017,174066,University of Minnesota-Twin Cities,Graduate,Total,16415
+2017,174066,University of Minnesota-Twin Cities,Graduate,Men,7494
+2017,174066,University of Minnesota-Twin Cities,Graduate,Women,8921
+2018,174066,University of Minnesota-Twin Cities,All students,Total,50943
+2018,174066,University of Minnesota-Twin Cities,All students,Men,23563
+2018,174066,University of Minnesota-Twin Cities,All students,Women,27380
+2018,174066,University of Minnesota-Twin Cities,Undergraduate,Total,34633
+2018,174066,University of Minnesota-Twin Cities,Undergraduate,Men,16196
+2018,174066,University of Minnesota-Twin Cities,Undergraduate,Women,18437
+2018,174066,University of Minnesota-Twin Cities,Graduate,Total,16310
+2018,174066,University of Minnesota-Twin Cities,Graduate,Men,7367
+2018,174066,University of Minnesota-Twin Cities,Graduate,Women,8943
+2019,174066,University of Minnesota-Twin Cities,All students,Total,51327
+2019,174066,University of Minnesota-Twin Cities,All students,Men,23550
+2019,174066,University of Minnesota-Twin Cities,All students,Women,27777
+2019,174066,University of Minnesota-Twin Cities,Undergraduate,Total,35165
+2019,174066,University of Minnesota-Twin Cities,Undergraduate,Men,16304
+2019,174066,University of Minnesota-Twin Cities,Undergraduate,Women,18861
+2019,174066,University of Minnesota-Twin Cities,Graduate,Total,16162
+2019,174066,University of Minnesota-Twin Cities,Graduate,Men,7246
+2019,174066,University of Minnesota-Twin Cities,Graduate,Women,8916
+2020,174066,University of Minnesota-Twin Cities,All students,Total,52017
+2020,174066,University of Minnesota-Twin Cities,All students,Men,23600
+2020,174066,University of Minnesota-Twin Cities,All students,Women,28417
+2020,174066,University of Minnesota-Twin Cities,Undergraduate,Total,36061
+2020,174066,University of Minnesota-Twin Cities,Undergraduate,Men,16594
+2020,174066,University of Minnesota-Twin Cities,Undergraduate,Women,19467
+2020,174066,University of Minnesota-Twin Cities,Graduate,Total,15956
+2020,174066,University of Minnesota-Twin Cities,Graduate,Men,7006
+2020,174066,University of Minnesota-Twin Cities,Graduate,Women,8950
+2017,199120,University of North Carolina at Chapel Hill,All students,Total,29911
+2017,199120,University of North Carolina at Chapel Hill,All students,Men,12737
+2017,199120,University of North Carolina at Chapel Hill,All students,Women,17174
+2017,199120,University of North Carolina at Chapel Hill,Undergraduate,Total,18862
+2017,199120,University of North Carolina at Chapel Hill,Undergraduate,Men,7764
+2017,199120,University of North Carolina at Chapel Hill,Undergraduate,Women,11098
+2017,199120,University of North Carolina at Chapel Hill,Graduate,Total,11049
+2017,199120,University of North Carolina at Chapel Hill,Graduate,Men,4973
+2017,199120,University of North Carolina at Chapel Hill,Graduate,Women,6076
+2018,199120,University of North Carolina at Chapel Hill,All students,Total,30011
+2018,199120,University of North Carolina at Chapel Hill,All students,Men,12563
+2018,199120,University of North Carolina at Chapel Hill,All students,Women,17448
+2018,199120,University of North Carolina at Chapel Hill,Undergraduate,Total,19117
+2018,199120,University of North Carolina at Chapel Hill,Undergraduate,Men,7766
+2018,199120,University of North Carolina at Chapel Hill,Undergraduate,Women,11351
+2018,199120,University of North Carolina at Chapel Hill,Graduate,Total,10894
+2018,199120,University of North Carolina at Chapel Hill,Graduate,Men,4797
+2018,199120,University of North Carolina at Chapel Hill,Graduate,Women,6097
+2019,199120,University of North Carolina at Chapel Hill,All students,Total,29877
+2019,199120,University of North Carolina at Chapel Hill,All students,Men,12380
+2019,199120,University of North Carolina at Chapel Hill,All students,Women,17497
+2019,199120,University of North Carolina at Chapel Hill,Undergraduate,Total,19154
+2019,199120,University of North Carolina at Chapel Hill,Undergraduate,Men,7752
+2019,199120,University of North Carolina at Chapel Hill,Undergraduate,Women,11402
+2019,199120,University of North Carolina at Chapel Hill,Graduate,Total,10723
+2019,199120,University of North Carolina at Chapel Hill,Graduate,Men,4628
+2019,199120,University of North Carolina at Chapel Hill,Graduate,Women,6095
+2020,199120,University of North Carolina at Chapel Hill,All students,Total,30092
+2020,199120,University of North Carolina at Chapel Hill,All students,Men,12339
+2020,199120,University of North Carolina at Chapel Hill,All students,Women,17753
+2020,199120,University of North Carolina at Chapel Hill,Undergraduate,Total,19395
+2020,199120,University of North Carolina at Chapel Hill,Undergraduate,Men,7784
+2020,199120,University of North Carolina at Chapel Hill,Undergraduate,Women,11611
+2020,199120,University of North Carolina at Chapel Hill,Graduate,Total,10697
+2020,199120,University of North Carolina at Chapel Hill,Graduate,Men,4555
+2020,199120,University of North Carolina at Chapel Hill,Graduate,Women,6142
+2017,204796,Ohio State University-Main Campus,All students,Total,59837
+2017,204796,Ohio State University-Main Campus,All students,Men,30143
+2017,204796,Ohio State University-Main Campus,All students,Women,29694
+2017,204796,Ohio State University-Main Campus,Undergraduate,Total,45946
+2017,204796,Ohio State University-Main Campus,Undergraduate,Men,23836
+2017,204796,Ohio State University-Main Campus,Undergraduate,Women,22110
+2017,204796,Ohio State University-Main Campus,Graduate,Total,13891
+2017,204796,Ohio State University-Main Campus,Graduate,Men,6307
+2017,204796,Ohio State University-Main Campus,Graduate,Women,7584
+2018,204796,Ohio State University-Main Campus,All students,Total,61170
+2018,204796,Ohio State University-Main Campus,All students,Men,30395
+2018,204796,Ohio State University-Main Campus,All students,Women,30775
+2018,204796,Ohio State University-Main Campus,Undergraduate,Total,46820
+2018,204796,Ohio State University-Main Campus,Undergraduate,Men,24041
+2018,204796,Ohio State University-Main Campus,Undergraduate,Women,22779
+2018,204796,Ohio State University-Main Campus,Graduate,Total,14350
+2018,204796,Ohio State University-Main Campus,Graduate,Men,6354
+2018,204796,Ohio State University-Main Campus,Graduate,Women,7996
+2019,204796,Ohio State University-Main Campus,All students,Total,61391
+2019,204796,Ohio State University-Main Campus,All students,Men,30281
+2019,204796,Ohio State University-Main Campus,All students,Women,31110
+2019,204796,Ohio State University-Main Campus,Undergraduate,Total,46818
+2019,204796,Ohio State University-Main Campus,Undergraduate,Men,23982
+2019,204796,Ohio State University-Main Campus,Undergraduate,Women,22836
+2019,204796,Ohio State University-Main Campus,Graduate,Total,14573
+2019,204796,Ohio State University-Main Campus,Graduate,Men,6299
+2019,204796,Ohio State University-Main Campus,Graduate,Women,8274
+2020,204796,Ohio State University-Main Campus,All students,Total,61369
+2020,204796,Ohio State University-Main Campus,All students,Men,29768
+2020,204796,Ohio State University-Main Campus,All students,Women,31601
+2020,204796,Ohio State University-Main Campus,Undergraduate,Total,46984
+2020,204796,Ohio State University-Main Campus,Undergraduate,Men,23694
+2020,204796,Ohio State University-Main Campus,Undergraduate,Women,23290
+2020,204796,Ohio State University-Main Campus,Graduate,Total,14385
+2020,204796,Ohio State University-Main Campus,Graduate,Men,6074
+2020,204796,Ohio State University-Main Campus,Graduate,Women,8311
+2017,214777,Pennsylvania State University-Main Campus,All students,Total,47119
+2017,214777,Pennsylvania State University-Main Campus,All students,Men,25212
+2017,214777,Pennsylvania State University-Main Campus,All students,Women,21907
+2017,214777,Pennsylvania State University-Main Campus,Undergraduate,Total,40835
+2017,214777,Pennsylvania State University-Main Campus,Undergraduate,Men,21761
+2017,214777,Pennsylvania State University-Main Campus,Undergraduate,Women,19074
+2017,214777,Pennsylvania State University-Main Campus,Graduate,Total,6284
+2017,214777,Pennsylvania State University-Main Campus,Graduate,Men,3451
+2017,214777,Pennsylvania State University-Main Campus,Graduate,Women,2833
+2018,214777,Pennsylvania State University-Main Campus,All students,Total,46810
+2018,214777,Pennsylvania State University-Main Campus,All students,Men,24985
+2018,214777,Pennsylvania State University-Main Campus,All students,Women,21825
+2018,214777,Pennsylvania State University-Main Campus,Undergraduate,Total,40363
+2018,214777,Pennsylvania State University-Main Campus,Undergraduate,Men,21482
+2018,214777,Pennsylvania State University-Main Campus,Undergraduate,Women,18881
+2018,214777,Pennsylvania State University-Main Campus,Graduate,Total,6447
+2018,214777,Pennsylvania State University-Main Campus,Graduate,Men,3503
+2018,214777,Pennsylvania State University-Main Campus,Graduate,Women,2944
+2019,214777,Pennsylvania State University-Main Campus,All students,Total,91427
+2019,214777,Pennsylvania State University-Main Campus,All students,Men,49122
+2019,214777,Pennsylvania State University-Main Campus,All students,Women,42305
+2019,214777,Pennsylvania State University-Main Campus,Undergraduate,Total,76099
+2019,214777,Pennsylvania State University-Main Campus,Undergraduate,Men,41089
+2019,214777,Pennsylvania State University-Main Campus,Undergraduate,Women,35010
+2019,214777,Pennsylvania State University-Main Campus,Graduate,Total,15328
+2019,214777,Pennsylvania State University-Main Campus,Graduate,Men,8033
+2019,214777,Pennsylvania State University-Main Campus,Graduate,Women,7295
+2017,228723,Texas A & M University-College Station,All students,Total,67929
+2017,228723,Texas A & M University-College Station,All students,Men,35846
+2017,228723,Texas A & M University-College Station,All students,Women,32083
+2017,228723,Texas A & M University-College Station,Undergraduate,Total,53065
+2017,228723,Texas A & M University-College Station,Undergraduate,Men,27695
+2017,228723,Texas A & M University-College Station,Undergraduate,Women,25370
+2017,228723,Texas A & M University-College Station,Graduate,Total,14864
+2017,228723,Texas A & M University-College Station,Graduate,Men,8151
+2017,228723,Texas A & M University-College Station,Graduate,Women,6713
+2018,228723,Texas A & M University-College Station,All students,Total,68679
+2018,228723,Texas A & M University-College Station,All students,Men,36450
+2018,228723,Texas A & M University-College Station,All students,Women,32229
+2018,228723,Texas A & M University-College Station,Undergraduate,Total,53743
+2018,228723,Texas A & M University-College Station,Undergraduate,Men,28313
+2018,228723,Texas A & M University-College Station,Undergraduate,Women,25430
+2018,228723,Texas A & M University-College Station,Graduate,Total,14936
+2018,228723,Texas A & M University-College Station,Graduate,Men,8137
+2018,228723,Texas A & M University-College Station,Graduate,Women,6799
+2019,228723,Texas A & M University-College Station,All students,Total,68726
+2019,228723,Texas A & M University-College Station,All students,Men,36604
+2019,228723,Texas A & M University-College Station,All students,Women,32122
+2019,228723,Texas A & M University-College Station,Undergraduate,Total,53791
+2019,228723,Texas A & M University-College Station,Undergraduate,Men,28500
+2019,228723,Texas A & M University-College Station,Undergraduate,Women,25291
+2019,228723,Texas A & M University-College Station,Graduate,Total,14935
+2019,228723,Texas A & M University-College Station,Graduate,Men,8104
+2019,228723,Texas A & M University-College Station,Graduate,Women,6831
+2020,228723,Texas A & M University-College Station,All students,Total,70418
+2020,228723,Texas A & M University-College Station,All students,Men,37319
+2020,228723,Texas A & M University-College Station,All students,Women,33099
+2020,228723,Texas A & M University-College Station,Undergraduate,Total,55568
+2020,228723,Texas A & M University-College Station,Undergraduate,Men,29430
+2020,228723,Texas A & M University-College Station,Undergraduate,Women,26138
+2020,228723,Texas A & M University-College Station,Graduate,Total,14850
+2020,228723,Texas A & M University-College Station,Graduate,Men,7889
+2020,228723,Texas A & M University-College Station,Graduate,Women,6961
+2017,228778,The University of Texas at Austin,All students,Total,51525
+2017,228778,The University of Texas at Austin,All students,Men,24742
+2017,228778,The University of Texas at Austin,All students,Women,26783
+2017,228778,The University of Texas at Austin,Undergraduate,Total,40492
+2017,228778,The University of Texas at Austin,Undergraduate,Men,19054
+2017,228778,The University of Texas at Austin,Undergraduate,Women,21438
+2017,228778,The University of Texas at Austin,Graduate,Total,11033
+2017,228778,The University of Texas at Austin,Graduate,Men,5688
+2017,228778,The University of Texas at Austin,Graduate,Women,5345
+2018,228778,The University of Texas at Austin,All students,Total,51832
+2018,228778,The University of Texas at Austin,All students,Men,24520
+2018,228778,The University of Texas at Austin,All students,Women,27312
+2018,228778,The University of Texas at Austin,Undergraduate,Total,40804
+2018,228778,The University of Texas at Austin,Undergraduate,Men,18852
+2018,228778,The University of Texas at Austin,Undergraduate,Women,21952
+2018,228778,The University of Texas at Austin,Graduate,Total,11028
+2018,228778,The University of Texas at Austin,Graduate,Men,5668
+2018,228778,The University of Texas at Austin,Graduate,Women,5360
+2019,228778,The University of Texas at Austin,All students,Total,51090
+2019,228778,The University of Texas at Austin,All students,Men,23862
+2019,228778,The University of Texas at Austin,All students,Women,27228
+2019,228778,The University of Texas at Austin,Undergraduate,Total,40163
+2019,228778,The University of Texas at Austin,Undergraduate,Men,18285
+2019,228778,The University of Texas at Austin,Undergraduate,Women,21878
+2019,228778,The University of Texas at Austin,Graduate,Total,10927
+2019,228778,The University of Texas at Austin,Graduate,Men,5577
+2019,228778,The University of Texas at Austin,Graduate,Women,5350
+2020,228778,The University of Texas at Austin,All students,Total,50476
+2020,228778,The University of Texas at Austin,All students,Men,22994
+2020,228778,The University of Texas at Austin,All students,Women,27482
+2020,228778,The University of Texas at Austin,Undergraduate,Total,40048
+2020,228778,The University of Texas at Austin,Undergraduate,Men,17716
+2020,228778,The University of Texas at Austin,Undergraduate,Women,22332
+2020,228778,The University of Texas at Austin,Graduate,Total,10428
+2020,228778,The University of Texas at Austin,Graduate,Men,5278
+2020,228778,The University of Texas at Austin,Graduate,Women,5150
+2017,236948,University of Washington-Seattle Campus,All students,Total,46166
+2017,236948,University of Washington-Seattle Campus,All students,Men,21689
+2017,236948,University of Washington-Seattle Campus,All students,Women,24477
+2017,236948,University of Washington-Seattle Campus,Undergraduate,Total,31331
+2017,236948,University of Washington-Seattle Campus,Undergraduate,Men,14772
+2017,236948,University of Washington-Seattle Campus,Undergraduate,Women,16559
+2017,236948,University of Washington-Seattle Campus,Graduate,Total,14835
+2017,236948,University of Washington-Seattle Campus,Graduate,Men,6917
+2017,236948,University of Washington-Seattle Campus,Graduate,Women,7918
+2018,236948,University of Washington-Seattle Campus,All students,Total,47400
+2018,236948,University of Washington-Seattle Campus,All students,Men,21989
+2018,236948,University of Washington-Seattle Campus,All students,Women,25411
+2018,236948,University of Washington-Seattle Campus,Undergraduate,Total,32099
+2018,236948,University of Washington-Seattle Campus,Undergraduate,Men,14955
+2018,236948,University of Washington-Seattle Campus,Undergraduate,Women,17144
+2018,236948,University of Washington-Seattle Campus,Graduate,Total,15301
+2018,236948,University of Washington-Seattle Campus,Graduate,Men,7034
+2018,236948,University of Washington-Seattle Campus,Graduate,Women,8267
+2019,236948,University of Washington-Seattle Campus,All students,Total,47576
+2019,236948,University of Washington-Seattle Campus,All students,Men,21664
+2019,236948,University of Washington-Seattle Campus,All students,Women,25912
+2019,236948,University of Washington-Seattle Campus,Undergraduate,Total,32046
+2019,236948,University of Washington-Seattle Campus,Undergraduate,Men,14645
+2019,236948,University of Washington-Seattle Campus,Undergraduate,Women,17401
+2019,236948,University of Washington-Seattle Campus,Graduate,Total,15530
+2019,236948,University of Washington-Seattle Campus,Graduate,Men,7019
+2019,236948,University of Washington-Seattle Campus,Graduate,Women,8511
+2020,236948,University of Washington-Seattle Campus,All students,Total,48149
+2020,236948,University of Washington-Seattle Campus,All students,Men,21464
+2020,236948,University of Washington-Seattle Campus,All students,Women,26685
+2020,236948,University of Washington-Seattle Campus,Undergraduate,Total,32244
+2020,236948,University of Washington-Seattle Campus,Undergraduate,Men,14448
+2020,236948,University of Washington-Seattle Campus,Undergraduate,Women,17796
+2020,236948,University of Washington-Seattle Campus,Graduate,Total,15905
+2020,236948,University of Washington-Seattle Campus,Graduate,Men,7016
+2020,236948,University of Washington-Seattle Campus,Graduate,Women,8889
+2017,240444,University of Wisconsin-Madison,All students,Total,42977
+2017,240444,University of Wisconsin-Madison,All students,Men,21019
+2017,240444,University of Wisconsin-Madison,All students,Women,21958
+2017,240444,University of Wisconsin-Madison,Undergraduate,Total,31358
+2017,240444,University of Wisconsin-Madison,Undergraduate,Men,15280
+2017,240444,University of Wisconsin-Madison,Undergraduate,Women,16078
+2017,240444,University of Wisconsin-Madison,Graduate,Total,11619
+2017,240444,University of Wisconsin-Madison,Graduate,Men,5739
+2017,240444,University of Wisconsin-Madison,Graduate,Women,5880
+2018,240444,University of Wisconsin-Madison,All students,Total,43463
+2018,240444,University of Wisconsin-Madison,All students,Men,21154
+2018,240444,University of Wisconsin-Madison,All students,Women,22309
+2018,240444,University of Wisconsin-Madison,Undergraduate,Total,31705
+2018,240444,University of Wisconsin-Madison,Undergraduate,Men,15436
+2018,240444,University of Wisconsin-Madison,Undergraduate,Women,16269
+2018,240444,University of Wisconsin-Madison,Graduate,Total,11758
+2018,240444,University of Wisconsin-Madison,Graduate,Men,5718
+2018,240444,University of Wisconsin-Madison,Graduate,Women,6040
+2019,240444,University of Wisconsin-Madison,All students,Total,44257
+2019,240444,University of Wisconsin-Madison,All students,Men,21314
+2019,240444,University of Wisconsin-Madison,All students,Women,22943
+2019,240444,University of Wisconsin-Madison,Undergraduate,Total,32399
+2019,240444,University of Wisconsin-Madison,Undergraduate,Men,15644
+2019,240444,University of Wisconsin-Madison,Undergraduate,Women,16755
+2019,240444,University of Wisconsin-Madison,Graduate,Total,11858
+2019,240444,University of Wisconsin-Madison,Graduate,Men,5670
+2019,240444,University of Wisconsin-Madison,Graduate,Women,6188
+2020,240444,University of Wisconsin-Madison,All students,Total,44640
+2020,240444,University of Wisconsin-Madison,All students,Men,21359
+2020,240444,University of Wisconsin-Madison,All students,Women,23281
+2020,240444,University of Wisconsin-Madison,Undergraduate,Total,32688
+2020,240444,University of Wisconsin-Madison,Undergraduate,Men,15714
+2020,240444,University of Wisconsin-Madison,Undergraduate,Women,16974
+2020,240444,University of Wisconsin-Madison,Graduate,Total,11952
+2020,240444,University of Wisconsin-Madison,Graduate,Men,5645
+2020,240444,University of Wisconsin-Madison,Graduate,Women,6307

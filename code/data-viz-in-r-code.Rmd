@@ -1,0 +1,575 @@
+---
+title: "Data Analysis and Visualization in R"
+author: "Jenn Schilling"
+date: "June 5, 2022"
+output:
+ html_document:
+  theme: "flatly" 
+  toc: TRUE
+  toc_float: TRUE
+---
+
+
+This file contains contains code for pre-conference AIR Forum Workshop: Data Analysis Visualization in R, presented for the Association for Institutional Research by Jenn Schilling on June 5, 2022. 
+
+**Materials developed by Jenn Schilling.**  
+
+
+```{r setup, include=FALSE}
+
+# Set default chunk options
+knitr::opts_chunk$set(echo = TRUE, message = FALSE) 
+
+# Set the default size of figures
+knitr::opts_chunk$set(fig.width = 8, fig.height = 5)  
+
+# Load libraries
+library(here)
+library(explore)
+library(tidyverse)
+library(scales)
+
+```
+
+
+# Read the Data
+
+```{r read-data, include=FALSE}
+
+# Data from IPEDS
+ipeds_char <- read_csv(here("data", "IPEDS_inst_char.csv"))
+ipeds_adm <- read_csv(here("data", "IPEDS_inst_adm.csv"))
+ipeds_enrl <- read_csv(here("data", "IPEDS_inst_enrl.csv"))
+ipeds_compl <- read_csv(here("data", "IPEDS_inst_compl.csv"))
+
+```
+
+
+
+# Data Exploration
+
+
+## Your Turn
+
+
+# Data Analysis
+
+
+## Your Turn
+
+
+# Data Visualization
+
+
+## Your Turn
+
+
+# From Previous AIR Webinar
+
+# Scatter plot
+
+Make a scatter plot 
+
+```{r scatter-plot}
+
+inst_adm_plot <- left_join(inst_list, inst_adm, by = "unitid") %>%
+  filter(year == 2019)
+
+ggplot(data = inst_adm_plot,
+       mapping = aes(x = sat_score,
+                     y = act_score)) +
+  geom_point()
+
+```
+
+# Line Graph
+
+Make a line graph
+
+```{r line-graph}
+
+inst_adm_plot <- left_join(inst_list, inst_adm, by = "unitid")
+
+ggplot(data = inst_adm_plot,
+       mapping = aes(x = year,
+                     y = sat_score)) +
+  geom_line()
+
+# Something went wrong
+
+# Need to add group mapping
+ggplot(data = inst_adm_plot,
+       mapping = aes(x = year,
+                     y = sat_score,
+                     group = instnm)) +
+  geom_line()
+
+# What about number who submitted by year?
+ggplot(data = inst_adm_plot,
+       mapping = aes(x = year,
+                     y = n_sat,
+                     group = instnm)) +
+  geom_line()
+
+# Who's that outlier in 2019?
+ggplot(data = inst_adm_plot,
+       mapping = aes(x = year,
+                     y = n_sat,
+                     group = instnm)) +
+  geom_line() +
+  geom_text(mapping = aes(label = instnm)) # Add Text Labels
+
+
+# We can see it's Penn State, but the labels are kind of a mess
+ggplot(data = inst_adm_plot,
+       mapping = aes(x = year,
+                     y = n_sat,
+                     group = instnm)) +
+  geom_line() +
+  # Filter to only the last year for the text labels
+  geom_text(data = inst_adm_plot %>% filter(year == 2019),
+            mapping = aes(x = year,
+                          y = n_sat,
+                          label = instnm))
+
+# How can we make the labels more readable?
+ggplot(data = inst_adm_plot,
+       mapping = aes(x = year,
+                     y = n_sat,
+                     group = instnm)) +
+  geom_line() +
+  # Change the x mapping for the text labels and add some format adjustments 
+  geom_text(data = inst_adm_plot %>% filter(year == 2019),
+            mapping = aes(x = Inf,
+                          y = n_sat,
+                          label = instnm),
+            hjust = -.01) +
+  coord_cartesian(clip = "off") +
+  theme(plot.margin = margin(0, 250, 0, 0))
+
+
+```
+
+# Bar Graph
+
+Make a bar graph
+
+```{r bar-plot}
+
+# How many institutions of each type?
+ggplot(data = inst_list,
+       mapping = aes(x = locale)) +
+  geom_bar()
+
+# Can we sort them?
+# Yes, by using the fct_infreq() function from the forcats package in tidyverse
+# fct_infreq() reorders the levels by their frequencies
+ggplot(data = inst_list,
+       mapping = aes(x = fct_infreq(locale))) +
+  geom_bar()
+
+# What if we want to make a bar plot with something other than counts?
+
+inst_enrlmnt_plot <- left_join(inst_list, inst_enrlmnt, by = "unitid")
+
+# What does enrollment look like by urban area?
+
+# This will give total enrollment in each urban area
+ggplot(data = inst_enrlmnt_plot %>% 
+         filter(lstudy == "All students", gender == "Total", year == 2019),
+       mapping = aes(x = locale,
+                     y = n_enrl)) +
+  geom_col()
+
+# See - the enrollments for each institution are stacked on top of one another
+ggplot(data = inst_enrlmnt_plot %>% 
+         filter(lstudy == "All students", gender == "Total", year == 2019),
+       mapping = aes(x = locale,
+                     y = n_enrl,
+                     fill = instnm)) +
+  geom_col()
+
+# What if we want the median enrollment in each area? 
+inst_enrlmnt_plot_sub <- inst_enrlmnt_plot %>%
+  filter(lstudy == "All students", gender == "Total", year == 2019) %>%
+  group_by(locale) %>%
+  summarize(med_enrl = median(n_enrl),
+            .groups = "drop")
+
+ggplot(data = inst_enrlmnt_plot_sub,
+       mapping = aes(x = locale,
+                     y = med_enrl)) +
+  geom_col()
+
+# Sort by median enrollment
+# This time, use the reorder() function to arrange the locale column by the med_enrl column
+ggplot(data = inst_enrlmnt_plot_sub,
+       mapping = aes(x = reorder(locale, -med_enrl),
+                     y = med_enrl)) +
+  geom_col()
+
+# What if we want to see the enrollment by institution and urban area?
+ggplot(data = inst_enrlmnt_plot %>% 
+         filter(lstudy == "All students", 
+                gender == "Total",
+                year == 2019),
+       mapping = aes(x = n_enrl,
+                     y = reorder(instnm, 
+                                 n_enrl))) +
+  geom_col() +
+  facet_wrap(~ locale,
+             scales = "free_y",
+             ncol = 1)
+
+```
+
+# Add color
+
+Add color to bar graph
+
+```{r fill-color}
+
+inst_enrlmnt_plot <- left_join(inst_list, inst_enrlmnt, by = "unitid")
+
+# How has median enrollment changed by urban area over time?
+inst_enrlmnt_plot_sub <- inst_enrlmnt_plot %>%
+  filter(lstudy == "All students", gender == "Total") %>%
+  group_by(year, locale) %>%
+  summarize(med_enrl = median(n_enrl),
+            .groups = "drop")
+
+ggplot(data = inst_enrlmnt_plot_sub,
+       mapping = aes(x = year,
+                     y = med_enrl,
+                     fill = locale)) +
+  geom_col() 
+
+
+# Remove the stacking
+ggplot(data = inst_enrlmnt_plot_sub,
+       mapping = aes(x = year,
+                     y = med_enrl,
+                     fill = locale)) +
+  geom_col(position = "dodge") 
+
+# Make a different plot for each urban area
+ggplot(data = inst_enrlmnt_plot_sub,
+       mapping = aes(x = year,
+                     y = med_enrl,
+                     fill = locale)) +
+  geom_col(position = "dodge") +
+  facet_wrap(~ locale) +
+  guides(fill = FALSE) # remove the legend
+
+# Maybe it would be better to show this with lines?
+ggplot(data = inst_enrlmnt_plot_sub,
+       mapping = aes(x = year,
+                     y = med_enrl,
+                     fill = locale)) +
+  geom_line() +
+  facet_wrap(~ locale) +
+  guides(fill = FALSE) 
+
+# What happened to the color?
+# Bars, histograms, and boxplots use fill; lines and points use color
+ggplot(data = inst_enrlmnt_plot_sub,
+       mapping = aes(x = year,
+                     y = med_enrl,
+                     color = locale)) +
+  geom_line() +
+  facet_wrap(~ locale) +
+  guides(color = FALSE) 
+
+```
+
+
+# Labels and Formatting
+
+Add labels and formatting
+
+
+```{r formatting}
+
+inst_compl_plot <- left_join(inst_list, inst_compl, by = "unitid") 
+
+ggplot(data = inst_compl_plot %>% 
+         filter(gender == "Total", 
+                unitid == 104179),
+       mapping = aes(x = year,
+                     y = n_deg,
+                     color = awlevelc)) +
+  geom_line()
+
+# Reorder degree levels
+ggplot(data = inst_compl_plot %>% 
+         filter(gender == "Total", 
+                unitid == 104179),
+       mapping = aes(x = year,
+                     y = n_deg,
+                     color = factor(awlevelc,
+                      levels = c("Bachelor's degree",
+                                 "Master's degree",
+                                 "Doctor's degree")))) +
+  geom_line()
+
+# Add titles and labels
+ggplot(data = inst_compl_plot %>% 
+         filter(gender == "Total",
+                unitid == 104179),
+       mapping = aes(x = year,
+                     y = n_deg,
+                     color = factor(awlevelc,
+                      levels = c("Bachelor's degree",
+                                 "Master's degree",
+                                 "Doctor's degree")))) +
+  geom_line() +
+  labs(title = "Number of Degrees Awarded by the University of Arizona by Academic Year",
+       x = "Academic Year",
+       y = "",
+       color = "")
+
+# Move legend to the top 
+ggplot(data = inst_compl_plot %>% 
+         filter(gender == "Total", 
+                unitid == 104179),
+       mapping = aes(x = year,
+                     y = n_deg,
+                     color = factor(awlevelc,
+                      levels = c("Bachelor's degree",
+                                 "Master's degree",
+                                 "Doctor's degree")))) +
+  geom_line() +
+  labs(title = "Number of Degrees Awarded by the University of Arizona by Academic Year",
+       x = "Academic Year",
+       y = "",
+       color = "") +
+  theme(legend.position = "top")
+
+# Add note about data source
+ggplot(data = inst_compl_plot %>% 
+         filter(gender == "Total", 
+                unitid == 104179),
+       mapping = aes(x = year,
+                     y = n_deg,
+                     color = factor(awlevelc,
+                      levels = c("Bachelor's degree",
+                                 "Master's degree",
+                                 "Doctor's degree")))) +
+  geom_line() +
+  labs(title = "Number of Degrees Awarded by the University of Arizona by Academic Year",
+       x = "Academic Year",
+       y = "",
+       color = "",
+       caption = "Data from IPEDS Completions Survey") +
+  theme(legend.position = "top")
+
+
+# Add Theme
+ggplot(data = inst_compl_plot %>% 
+         filter(gender == "Total", 
+                unitid == 104179),
+       mapping = aes(x = year,
+                     y = n_deg,
+                     color = factor(awlevelc,
+                      levels = c("Bachelor's degree",
+                                 "Master's degree",
+                                 "Doctor's degree")))) +
+  geom_line() +
+  labs(title = "Number of Degrees Awarded by the University of Arizona by Academic Year",
+       x = "Academic Year",
+       y = "",
+       color = "",
+       caption = "Data from IPEDS Completions Survey") +
+  theme_minimal() +
+  theme(legend.position = "top")
+
+
+# Add commas to y-axis labels
+ggplot(data = inst_compl_plot %>% 
+         filter(gender == "Total", 
+                unitid == 104179),
+       mapping = aes(x = year,
+                     y = n_deg,
+                     color = factor(awlevelc,
+                      levels = c("Bachelor's degree",
+                                 "Master's degree",
+                                 "Doctor's degree")))) +
+  geom_line() +
+  scale_y_continuous(labels = scales::comma) +
+  labs(title = "Number of Degrees Awarded by the University of Arizona by Academic Year",
+       x = "Academic Year",
+       y = "",
+       color = "",
+       caption = "Data from IPEDS Completions Survey") +
+  theme_minimal() +
+  theme(legend.position = "top")
+
+# Remove decimals from x-axis labels and make them academic year ranges
+ggplot(data = inst_compl_plot %>% 
+         filter(gender == "Total", 
+                unitid == 104179),
+       mapping = aes(x = year,
+                     y = n_deg,
+                     color = factor(awlevelc,
+                      levels = c("Bachelor's degree",
+                                 "Master's degree",
+                                 "Doctor's degree")))) +
+  geom_line() +
+  scale_y_continuous(labels = scales::comma) +
+  scale_x_continuous(breaks = c(2017, 2018, 2019)) +
+  labs(title = "Number of Degrees Awarded by the University of Arizona by Academic Year",
+       x = "Academic Year",
+       y = "",
+       color = "",
+       caption = "Data from IPEDS Completions Survey") +
+  theme_minimal() +
+  theme(legend.position = "top")
+
+ggplot(data = inst_compl_plot %>% 
+         filter(gender == "Total", 
+                unitid == 104179),
+       mapping = aes(x = year,
+                     y = n_deg,
+                     color = factor(awlevelc,
+                      levels = c("Bachelor's degree",
+                                 "Master's degree",
+                                 "Doctor's degree")))) +
+  geom_line() +
+  scale_y_continuous(labels = scales::comma) +
+  scale_x_continuous(breaks = c(2017, 2018, 2019),
+                     labels = c("2016-17", 
+                                "2017-18", 
+                                "2018-19")) +
+  labs(title = "Number of Degrees Awarded by the University of Arizona by Academic Year",
+       x = "Academic Year",
+       y = "",
+       color = "",
+       caption = "Data from IPEDS Completions Survey") +
+  theme_minimal() +
+  theme(legend.position = "top")
+
+
+# Add points on top of the lines and remove line legend
+ggplot(data = inst_compl_plot %>% 
+         filter(gender == "Total",
+                unitid == 104179),
+       mapping = aes(x = year,
+                     y = n_deg,
+                     color = factor(awlevelc,
+                      levels = c("Bachelor's degree",
+                                 "Master's degree",
+                                 "Doctor's degree")))) +
+  geom_line(show.legend = FALSE) +
+  geom_point() +
+  scale_y_continuous(labels = scales::comma) +
+  scale_x_continuous(breaks = c(2017, 2018, 2019),
+                     labels = c("2016-17", 
+                                "2017-18", 
+                                "2018-19")) +
+  labs(title = "Number of Degrees Awarded by the University of Arizona by Academic Year",
+       x = "Academic Year",
+       y = "",
+       color = "",
+       caption = "Data from IPEDS Completions Survey") +
+  theme_minimal() +
+  theme(legend.position = "top")
+
+# Change color using ColorBrewer
+ggplot(data = inst_compl_plot %>% 
+         filter(gender == "Total",
+                unitid == 104179),
+       mapping = aes(x = year,
+                     y = n_deg,
+                     color = factor(awlevelc,
+                      levels = c("Bachelor's degree",
+                                 "Master's degree",
+                                 "Doctor's degree")))) +
+  geom_line(show.legend = FALSE) +
+  geom_point() +
+  scale_y_continuous(labels = scales::comma) +
+  scale_x_continuous(breaks = c(2017, 2018, 2019),
+                     labels = c("2016-17", 
+                                "2017-18", 
+                                "2018-19")) +
+  scale_color_brewer(palette = "Dark2") +
+  labs(title = "Number of Degrees Awarded by the University of Arizona by Academic Year",
+       x = "Academic Year",
+       y = "",
+       color = "",
+       caption = "Data from IPEDS Completions Survey") +
+  theme_minimal() +
+  theme(legend.position = "top")
+
+# Change color using manual colors
+ggplot(data = inst_compl_plot %>% 
+         filter(gender == "Total", 
+                unitid == 104179),
+       mapping = aes(x = year,
+                     y = n_deg,
+                     color = factor(awlevelc,
+                      levels = c("Bachelor's degree",
+                                 "Master's degree",
+                                 "Doctor's degree")))) +
+  geom_line(show.legend = FALSE) +
+  geom_point() +
+  scale_y_continuous(labels = scales::comma) +
+  scale_x_continuous(breaks = c(2017, 2018, 2019),
+                     labels = c("2016-17", 
+                                "2017-18", 
+                                "2018-19")) +
+  scale_color_manual(values = c("#0C234B", 
+                                "#AB0520", 
+                                "#378DBD")) +
+  labs(title = "Number of Degrees Awarded by the University of Arizona by Academic Year",
+       x = "Academic Year",
+       y = "",
+       color = "",
+       caption = "Data from IPEDS Completions Survey") +
+  theme_minimal() +
+  theme(legend.position = "top")
+
+
+```
+
+
+# Saving
+
+Save a plot
+
+```{r save}
+
+inst_compl_plot <- left_join(inst_list, inst_compl, by = "unitid") 
+
+line_plot <- ggplot(data = inst_compl_plot %>% 
+                      filter(gender == "Total", 
+                             unitid == 104179),
+                    mapping = aes(x = year,
+                                  y = n_deg,
+                                  color = factor(awlevelc,
+                                                 levels = c("Bachelor's degree",
+                                                            "Master's degree",
+                                                            "Doctor's degree")))) +
+  geom_line(show.legend = FALSE) +
+  geom_point() +
+  scale_y_continuous(labels = scales::comma) +
+  scale_x_continuous(breaks = c(2017, 2018, 2019),
+                     labels = c("2016-17", "2017-18", "2018-19")) +
+  scale_color_manual(values = c("#0C234B", "#AB0520", "#378DBD")) +
+  labs(title = "Number of Degrees Awarded by the University of Arizona by Academic Year",
+       x = "Academic Year",
+       y = "",
+       color = "",
+       caption = "Data from IPEDS Completions Surveys") +
+  theme_minimal() +
+  theme(legend.position = "top")
+
+ggsave(filename = here("plots", "line_plot.png"),
+       plot = line_plot,
+       device = "png",
+       width = 8,
+       height = 5,
+       type = "cairo")
+
+
+```
+
