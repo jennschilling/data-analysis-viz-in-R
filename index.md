@@ -33,5 +33,5 @@ The workshop requires attendees to have a laptop with [R](https://www.r-project.
 Please install the required packages in R prior to attending the workhop by running the following code in the RStudio console.
 
 ```
- install.packages(c("here", "explore", "tidyverse"))
+ install.packages(c("here", "explore", "tidyverse", "scales"))
 ```
