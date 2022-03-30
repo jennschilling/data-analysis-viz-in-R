@@ -5,9 +5,9 @@ I'm so glad you're here!
 This workshop will introduce individuals with a basic understanding of R to data manipulation, analysis, and visualization in R. Through guided exercises and presentations, participants will learn how to analyze data and create polished data visualizations in R. The workshop will also include tips on data visualization best practices, creating reproducible code, and outputting data visualizations in R. This workshop is ideal for higher education professionals who have limited experience in R and want to learn how to manipulate, analyze, and visualize data in R.
 
 After attending this pre-conference workshop, you will be able to:
-- Objective 1
-- Objective 2
-- Objective 3
+- Analyze data in R
+- Explain the grammar of graphics in R
+- Create polished, presentation-ready data visualizations in R
 
 ### Schedule
 
