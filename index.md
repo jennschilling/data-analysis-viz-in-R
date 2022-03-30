@@ -30,4 +30,8 @@ This workshop will be held Sunday, June 5, 2022, 12:30–4:00 PM at the AIR Foru
 
 The workshop requires attendees to have a laptop with [R](https://www.r-project.org/) and [RStudio](https://www.rstudio.com/) already installed.
 
-Please install the following packages in R prior to attending the workhop...
+Please install the required packages in R prior to attending the workhop by running the following code in the RStudio console.
+
+```
+ install.packages(c("here", "explore", "tidyverse"))
+```
