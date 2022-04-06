@@ -9,10 +9,10 @@
 - [R](https://www.r-project.org/)
 - [RStudio](https://www.rstudio.com/)
 - Packages Installed (here, explore, tidyverse, scales)
-```
- install.packages(c("here", "explore", 
-                    "tidyverse", "scales"))
-```
+ ```
+  install.packages(c("here", "explore", 
+                     "tidyverse", "scales"))
+ ```
 - [Workshop folder with R Markdown and data files](https://github.com/jennschilling/data-analysis-viz-in-R/tree/main/air-workshop-materials)
 
 ### Workshop Materials
@@ -28,7 +28,7 @@
 - README.txt
 
 ### Data
-The data for this workshop is sources from the Integrated Postsecondary Education Data System from the National Center for Education Statistics (or [IPEDS](https://nces.ed.gov/ipeds/use-the-data)).
+The data for this workshop is sources from the Integrated Postsecondary Education Data System from the National Center for Education Statistics ([IPEDS](https://nces.ed.gov/ipeds/use-the-data)).
 
 Data comes from the following surveys:
 - Institutional Characteristics
