@@ -48,14 +48,71 @@ ipeds_compl <- read_csv(here("data", "IPEDS_inst_compl.csv"))
 
 # Data Exploration
 
+```{r explore-data}
+
+# Interactive exploration of the data
+explore(ipeds_adm)
+
+# Create a report for exploratory data analysis
+report(ipeds_adm,
+       output_file = "ipeds_adm_report.html",
+       output_dir = here("output"))
+
+# Create a report for exploratory data analysis with a target variable
+report(ipeds_adm,
+       output_file = "ipeds_adm_report_target.html",
+       output_dir = here("output"),
+       target = n_enrl)
+
+```
+
 
 ## Your Turn
+
+Use the `explore()` or `report()` to explore one of the other IPEDS datasets.
+
+What do you notice? 
+
+Are there any outliers or unusual patterns in any variable?
+
+Are there any missing values? 
+
+Does the shape of the data reveal anything interesting? 
+
+```{r explore-data-your-turn}
+
+
+
+
+```
+
 
 
 # Data Analysis
 
+```{r analyze-data}
+
+# Summarize Data
+
+
+# Manipulate Data (pivot, join, mutate, filter)
+
+
+# Tidy Data
+
+
+```
+
 
 ## Your Turn
+
+```{r analyze-data-your-turn}
+
+
+
+
+```
+
 
 
 # Data Visualization
