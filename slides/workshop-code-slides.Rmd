@@ -1,7 +1,7 @@
 ---
-title: "Data Visualization in R"
+title: "Data Analysis and Visualization in R"
 author: "Jenn Schilling"
-date: "April 12 & 13, 2021"
+date: "June 5, 2022"
 output:
   xaringan::moon_reader:
     css: xaringan-themer.css
@@ -14,24 +14,19 @@ output:
       countIncrementalSlides: true
 ---
 
-class: center, middle, inverse
-
-# Day 1
-
 ```{r setup, include = FALSE}
 
-options(htmltools.dir.version = FALSE)
+# Set default chunk options
+knitr::opts_chunk$set(echo = TRUE, message = FALSE) 
 
-options(knitr.duplicate.label = "allow")
+# Set the default size of figures
+knitr::opts_chunk$set(fig.width = 8, fig.height = 5)  
 
-knitr::opts_chunk$set(fig.retina = 3, warning = FALSE, message = FALSE)
-
+# Load libraries
 library(here)
+library(explore)
 library(tidyverse)
-library(xaringanthemer)
-library(flair)
-library(flipbookr)
-library(DT)
+library(scales)
 
 ```
 
@@ -55,170 +50,30 @@ style_duo_accent(
 
 ```{r data, include = FALSE}
 
-# Directory data from IPEDS
-
-directory <- read_csv(here('data', 'ipeds_2019', 'hd2019.csv'))
-
-inst_list <- directory %>%
-  janitor::clean_names() %>%
-  filter(instnm %in% c(
-    'University of Arizona',
-    'University of California-Davis',
-    'University of California-Los Angeles',
-    'University of Florida',
-    'University of Illinois at Urbana-Champaign',
-    'University of Iowa',
-    'University of Maryland-College Park',
-    'Michigan State University',
-    'University of Minnesota-Twin Cities',
-    'University of North Carolina at Chapel Hill',
-    'Ohio State University-Main Campus',
-    'Pennsylvania State University-Main Campus',
-    'Texas A & M University-College Station',
-    'The University of Texas at Austin',
-    'University of Washington-Seattle Campus',
-    'University of Wisconsin-Madison')) %>% 
-  mutate(control = "Public", # All the same
-         hdegrofr1 = "Doctor's degree - research/scholarship and professional practice", # All the same
-         hospital = ifelse(hospital == 1, "Yes", "No"),
-         medical = ifelse(medical == 1, "Yes", "No"),
-         locale = case_when(
-           locale == 11 ~ "City: Large",
-           locale == 12 ~ "City: Midsize",
-           locale == 13 ~ "City: Small",
-           locale == 21 ~ "Suburb: Large",
-           locale == 23 ~ "Suburb: Small",
-           TRUE ~ "Other" ),
-         instsize = "20,000 and above", # All the same
-         landgrnt = ifelse(landgrnt == 1, "Land Grant Institution", "Not Land Grant Institution"),
-         c18basic = "Doctoral Universities: Very High Research Activity", # All the same
-         c18enprf = case_when(
-           c18enprf == 4 ~ "High undergraduate",
-           c18enprf == 5 ~ "Majority undergraduate",
-           TRUE ~ "Other"),
-         c18szset = case_when(
-           c18szset == 15 ~ "Four-year, large, primarily nonresidential",
-           c18szset == 16 ~ "Four-year, large, primarily residential",
-           c18szset == 17 ~ "Four-year, large, highly residential",
-           TRUE ~ "Other")
-         ) %>%
-  select(unitid, instnm, city, stabbr, control, hdegrofr1, hospital, medical, 
-         locale, instsize, landgrnt, c18basic, c18enprf, c18szset)
-
-
-# Admissions Data from IPEDS
-
-
-adm_17 <- read_csv(here('data', 'ipeds_2017', 'adm2017_rv.csv')) %>% 
-  janitor::clean_names() %>% mutate(year = 2017)
-adm_18 <- read_csv(here('data', 'ipeds_2018', 'adm2018_rv.csv')) %>% 
-  janitor::clean_names() %>% mutate(year = 2018)
-adm_19 <- read_csv(here('data', 'ipeds_2019', 'adm2019.csv')) %>% 
-  janitor::clean_names() %>% mutate(year = 2019)
-
-adm <- rbind(adm_17, adm_18, adm_19)
-
-inst_adm <- left_join(inst_list, adm, by = 'unitid')
-
-# Process Admissions Data
-inst_adm <- inst_adm %>%
-  rename(n_applicants = applcn,
-         n_admits = admssn,
-         n_enrl = enrlt,
-         n_sat = satnum,
-         pct_sat = satpct,
-         n_act = actnum,
-         pct_act = actpct,
-         test_req = admcon7) %>%
-  mutate(sat_score = (satvr25 + satvr75) / 2 + (satmt25 + satmt75) / 2,
-         act_score = actcm25 + actcm75 / 2,
-         test_req = case_when(
-           test_req == 1 ~ "Required",
-           test_req == 5 ~ "Considered by not required",
-           test_req == 2 ~ "Recommended",
-           TRUE ~ "Other"
-         ),
-         year = as.integer(year)) %>%
-  select(year, unitid, n_applicants, n_admits, n_enrl, test_req, n_sat, 
-         pct_sat, sat_score, n_act, pct_act, act_score)
-
-
-# Enrollment Data from IPEDS
-
-enrlmnt_17 <- read_csv(here('data', 'ipeds_2017', 'ef2017a_rv.csv')) %>% 
-  janitor::clean_names() %>% mutate(year = 2017)
-enrlmnt_18 <- read_csv(here('data', 'ipeds_2018', 'ef2018a_rv.csv')) %>% 
-  janitor::clean_names() %>% mutate(year = 2018)
-enrlmnt_19 <- read_csv(here('data', 'ipeds_2019', 'ef2019a.csv')) %>% 
-  janitor::clean_names() %>% mutate(year = 2019)
-
-enrlmnt <- rbind(enrlmnt_17, enrlmnt_18, enrlmnt_19)
-
-inst_enrlmnt <- left_join(inst_list, enrlmnt, by = 'unitid')
-
-# Process Enrollment Data
-inst_enrlmnt <- inst_enrlmnt %>%
-  filter(efalevel == 1 | # All students total
-         efalevel == 2 | # All students undergraduate total
-         efalevel == 12 # All students graduate total
-           ) %>%
-  mutate(lstudy = case_when(
-      lstudy == 1 ~ "Undergraduate",
-      lstudy == 3 ~ "Graduate",
-      lstudy == 4 ~ "All students",
-      TRUE ~ "Other")) %>%
-  rename(n_enrl = eftotlt,
-         n_enrl_m = eftotlm,
-         n_enrl_w = eftotlw) %>%
-  select(year, unitid, lstudy, n_enrl, n_enrl_m, n_enrl_w) %>%
-  pivot_longer(cols = n_enrl:n_enrl_w,
-               names_to = "gender",
-               values_to = "n_enrl") %>%
-  mutate(gender = case_when(
-    gender == "n_enrl" ~ "Total",
-    gender == "n_enrl_m" ~ "Men",
-    gender == "n_enrl_w" ~ "Women"
-  ),
-  year = as.integer(year))
-
-
-# Completions Data from IPEDS
-
-compl_17 <- read_csv(here('data', 'ipeds_2017', 'c2017_c_rv.csv')) %>% 
-  janitor::clean_names() %>% mutate(year = 2017)
-compl_18 <- read_csv(here('data', 'ipeds_2018', 'c2018_c_rv.csv')) %>% 
-  janitor::clean_names() %>% mutate(year = 2018)
-compl_19 <- read_csv(here('data', 'ipeds_2019', 'c2019_c.csv')) %>% 
-  janitor::clean_names() %>% mutate(year = 2019)
-
-compl <- rbind(compl_17, compl_18, compl_19)
-
-inst_compl <- left_join(inst_list, compl, by = 'unitid')
-
-# Process completions data
-inst_compl <- inst_compl %>%
-  mutate(awlevelc = case_when(
-    awlevelc == "05" ~ "Bachelor's degree",
-    awlevelc == "07" ~ "Master's degree",
-    awlevelc == "09" ~ "Doctor's degree",
-    TRUE ~ "Other"
-  )) %>%
-  filter(awlevelc != "Other") %>%
-  rename(n_deg = cstotlt,
-         n_deg_m = cstotlm,
-         n_deg_w = cstotlw) %>%
-  select(year, unitid, awlevelc, n_deg, n_deg_m, n_deg_w) %>%
-  pivot_longer(cols = n_deg:n_deg_w,
-               names_to = "gender",
-               values_to = "n_deg") %>%
-  mutate(gender = case_when(
-    gender == "n_deg" ~ "Total",
-    gender == "n_deg_m" ~ "Men",
-    gender == "n_deg_w" ~ "Women"
-  ),
-  year = as.integer(year))
+ipeds_char <- read_csv(here("data", "IPEDS_inst_char.csv"))
+ipeds_adm <- read_csv(here("data", "IPEDS_inst_adm.csv"))
+ipeds_enrl <- read_csv(here("data", "IPEDS_inst_enrl.csv"))
+ipeds_compl <- read_csv(here("data", "IPEDS_inst_compl.csv"))
 
 ```
+
+---
+
+class: center, middle, inverse
+
+# Data Exploration
+
+---
+
+class: center, middle, inverse
+
+# Data Analysis
+
+---
+
+class: center, middle, inverse
+
+# Data Visualization
 
 ---
 
