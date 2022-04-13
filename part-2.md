@@ -1,8 +1,8 @@
 ## Part 2: Data Analysis in R & Data Visualization Best Practices
 
-### Resources
-- [dplyr](https://dplyr.tidyverse.org/)
-- [tidyr](https://tidyr.tidyverse.org/)
+### Data Analysis Resources
+- [dplyr package reference](https://dplyr.tidyverse.org/)
+- [tidyr package reference](https://tidyr.tidyverse.org/)
 
 ### Data Visualization Best Practices
 
