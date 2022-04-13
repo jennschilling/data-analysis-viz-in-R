@@ -23,6 +23,7 @@
   - IPEDS_inst_char.csv
   - IPEDS_inst_compl.csv
   - IPDES_inst_enrl.csv
+- output
 - plots
 - .here
 - README.txt
