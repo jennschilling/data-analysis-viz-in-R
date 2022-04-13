@@ -19,7 +19,7 @@ This workshop will be held Sunday, June 5, 2022, 12:30–4:00 PM at the AIR Foru
 | ----------- | ----------- |
 | 12:30 - 1:15 | [Introduction to Workshop and R & Data Analysis in R](part-1.md) |
 | 1:15 - 1:25 | BREAK |
-| 1:25 - 2:10 | Data Analysis in R & Data Visualization Best Practices |
+| 1:25 - 2:10 | [Data Analysis in R & Data Visualization Best Practices](part-2.md) |
 | 2:10 - 2:20 | BREAK |
 | 2:20 - 3:05 | Data Visualization Best Practices & Data Visualization in R |
 | 3:05 - 3:15 | BREAK |
