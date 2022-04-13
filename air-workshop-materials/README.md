@@ -18,7 +18,7 @@ This directory contains the data and code for pre-conference AIR Forum Workshop:
 
 **How to Use These Files**
 
-1. Save all three folders and the *.here* file to the same directory on your computer.
+1. Save all four folders and the *.here* file to the same directory on your computer.
 
 2. Open the R Markdown document in the *code* folder in RStudio.
 
