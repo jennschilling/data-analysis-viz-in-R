@@ -67,7 +67,7 @@ report(ipeds_adm,
 ```
 
 
-## Your Turn
+## Data Exploration - Your Turn
 
 Use the `explore()` or `report()` to explore one of the other IPEDS datasets.
 
@@ -78,6 +78,8 @@ Are there any outliers or unusual patterns in any variable?
 Are there any missing values? 
 
 Does the shape of the data reveal anything interesting? 
+
+Learn more at the package website: https://github.com/rolkra/explore
 
 ```{r explore-data-your-turn}
 
@@ -92,19 +94,80 @@ Does the shape of the data reveal anything interesting?
 
 ```{r analyze-data}
 
-# Summarize Data
+## Summarize Data ##
+
+# General, base summary of every column/variable
+summary(ipeds_adm)
+
+# Compute summary statistics for each institution 
+ipeds_adm_summary <- ipeds_adm %>%
+  group_by(instnm) %>%
+  summarize(median_applicants = median(n_applicants, na.rm = TRUE),
+            mean_applicants = mean(n_applicants, na.rm = TRUE),
+            std_applicants = sd(n_applicants, na.rm = TRUE),
+            max_applicants = max(n_applicants, na.rm = TRUE),
+            min_applicants = min(n_applicants, na.rm = TRUE),
+            num_years = n()) %>%
+  ungroup()
+  
+View(ipeds_adm_summary)
+
+## Manipulate Data ##
+
+# Add a new column
+ipeds_adm_new_col <- ipeds_adm %>%
+  mutate(yield = n_admits / n_applicants)
+
+View(ipeds_adm_new_col)
+
+# Filter data to get rows of interest
+ipeds_adm_subset_rows <- ipeds_adm %>%
+  filter(year >= 2019)
+
+View(ipeds_adm_subset)
+
+# Select only columns of interest
+ipeds_adm_subset_col <- ipeds_adm %>%
+  select(year, unitid, instnm, n_applicants, n_sat, sat_score, n_act, act_score)
+
+View(ipeds_adm_subset_col)
+
+# Add more columns/variables by joining
+View(ipeds_adm)
+View(ipeds_char)
+
+ipeds_adm_char <- left_join(ipeds_adm, ipeds_char, by = c("unitid", "instnm"))
+
+View(ipeds_adm_char)
 
 
-# Manipulate Data (pivot, join, mutate, filter)
+## Correlation ##
+ipeds_adm_corr <- cor(ipeds_adm$n_admits, ipeds_adm$n_enrl)
 
+ipeds_adm_corr
 
-# Tidy Data
+## Linear Regression ##
+ipeds_adm_model <- lm(n_enrl ~ n_admits, data = ipeds_adm)
+
+summary(ipeds_adm_model)
 
 
 ```
 
 
-## Your Turn
+## Data Analysis - Your Turn
+
+Use the `summarize()` function to create summary statistics for a different column or different IPEDS dataset. 
+
+Try to add a new column with the `mutate()` function or subset the data using `filter()` or `select()` in one of the IPEDS datasets.
+
+Put two IPEDS datasets together using a `left_join()`, `right_join()`, or `inner_join()`.
+
+Explore a linear regression using `corr()` and `lm()`.
+
+Learn more at the package website: https://dplyr.tidyverse.org/
+
+If your data is not already in tidy format, the {tidyr} package provides useful functions for processing data. Learn more at the package website: https://tidyr.tidyverse.org/
 
 ```{r analyze-data-your-turn}
 
