@@ -11,9 +11,9 @@ This directory contains the data and code for pre-conference AIR Forum Workshop:
 
 - data: Contains the CSV data files created from files downloaded from the IPEDS website for 2017, 2018, 2019, and 2020. These data files are used in the R Markdown document as the data sources. Data was downloaded from the Institutional Characteristics, Admissions and Test Scores, Fall Enrollment, and Completions surveys.
 
-- output: Currently empty, but it will be used for saving output from data exploration.
+- output: Used for saving output from data exploration.
 
-- plots: Currently empty, but it will be used for saving plots.
+- plots: Used for saving plots.
 
 
 **How to Use These Files**
