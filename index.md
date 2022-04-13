@@ -11,6 +11,18 @@ After attending this pre-conference workshop, you will be able to:
 - Develop polished, presentation-ready visualizations in R
 
 
+### Pre-work
+
+The workshop requires attendees to have a laptop with [R](https://www.r-project.org/) and [RStudio](https://www.rstudio.com/) already installed.
+
+Please install the required packages in R prior to attending the workhop by running the following code in the RStudio console.
+
+```
+ install.packages(c("here", "explore", 
+                    "tidyverse", "scales"))
+```
+
+
 ### Schedule
 
 This workshop will be held Sunday, June 5, 2022, 12:30–4:00 PM at the AIR Forum in Phoenix, Arizona.
@@ -26,13 +38,3 @@ This workshop will be held Sunday, June 5, 2022, 12:30–4:00 PM at the AIR Foru
 | 3:15 - 4:00 | Data Visualization in R & Next Steps |
 
 
-### Pre-work
-
-The workshop requires attendees to have a laptop with [R](https://www.r-project.org/) and [RStudio](https://www.rstudio.com/) already installed.
-
-Please install the required packages in R prior to attending the workhop by running the following code in the RStudio console.
-
-```
- install.packages(c("here", "explore", 
-                    "tidyverse", "scales"))
-```
