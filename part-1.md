@@ -38,3 +38,6 @@ Data comes from the following surveys:
 
 I pulled data from 2017-2020 and selected 16 institutions based on the University of Arizona's peers defined by the Arizona Board of Regents. Then I reformatted the data to be tidy. 
 
+### Resources
+
+- [explore package](https://github.com/rolkra/explore)
