@@ -14,8 +14,9 @@ This file contains contains code for pre-conference AIR Forum Workshop: Data Ana
 
 **Materials developed by Jenn Schilling.**  
 
+# Setup 
 
-```{r setup, include=FALSE}
+```{r setup, message = FALSE, warning = FALSE}
 
 # Set default chunk options
 knitr::opts_chunk$set(echo = TRUE, message = FALSE) 
@@ -34,7 +35,7 @@ library(scales)
 
 # Read the Data
 
-```{r read-data, include=FALSE}
+```{r read-data}
 
 # Data from IPEDS
 ipeds_char <- read_csv(here("data", "IPEDS_inst_char.csv"))
@@ -48,7 +49,7 @@ ipeds_compl <- read_csv(here("data", "IPEDS_inst_compl.csv"))
 
 # Data Exploration
 
-```{r explore-data}
+```{r explore-data, eval = FALSE}
 
 # Interactive exploration of the data
 explore(ipeds_adm)
@@ -80,6 +81,7 @@ Are there any missing values?
 Does the shape of the data reveal anything interesting? 
 
 Learn more at the package website: https://github.com/rolkra/explore
+
 
 ```{r explore-data-your-turn}
 
@@ -124,7 +126,7 @@ View(ipeds_adm_new_col)
 ipeds_adm_subset_rows <- ipeds_adm %>%
   filter(year >= 2019)
 
-View(ipeds_adm_subset)
+View(ipeds_adm_subset_rows)
 
 # Select only columns of interest
 ipeds_adm_subset_col <- ipeds_adm %>%
@@ -169,6 +171,7 @@ Learn more at the package website: https://dplyr.tidyverse.org/
 
 If your data is not already in tidy format, the {tidyr} package provides useful functions for processing data. Learn more at the package website: https://tidyr.tidyverse.org/
 
+
 ```{r analyze-data-your-turn}
 
 
@@ -179,6 +182,8 @@ If your data is not already in tidy format, the {tidyr} package provides useful 
 
 
 # Data Visualization
+
+## Scatterplot
 
 ```{r data-viz-01-scatter}
 
@@ -228,6 +233,7 @@ ggplot(data = ipeds_adm_plot,
 
 ```
 
+## Line Graph
 
 ```{r data-viz-02-line}
 
@@ -322,6 +328,7 @@ ggplot(data = ipeds_adm,
 
 ```
 
+## Bar Graph
 
 ```{r data-viz-03-bar}
 
@@ -390,6 +397,8 @@ ggplot(data = inst_enrlmnt_data_sub,
 
 ```
 
+## Pie Chart
+
 ```{r data-viz-04-pie}
 
 # What proportion of undergraduate enrollment at the University of Arizona in Fall 2020 was men vs. women?
@@ -434,7 +443,7 @@ ggplot(data = ua_enrl_perc,
 
 ```
 
-
+## Faceting
 
 
 ```{r data-viz-05-facets}
@@ -486,6 +495,7 @@ ggplot(data = inst_enrlmnt_data %>%
 
 ```
 
+## Facets with Bars and Lines
 
 ```{r data-viz-06-bar}
 
@@ -555,6 +565,9 @@ ggplot(data = inst_enrlmnt_data_sub,
 # Bars, histograms, and boxplots use fill; lines and points use color
 
 ```
+
+
+## Formatting and Saving
 
 ```{r data-viz-07-format}
 
@@ -655,9 +668,101 @@ ggsave(filename = here("plots", "line_plot.png"),
 
 ```
 
+## Fixing Potential Errors
+
+```{r data-viz-08-erro, eval = FALSE}
+
+# Why doesn't the code in this chunk create what we expect?
+
+# Get the data ready for the plot
+ipeds_adm_plot <- ipeds_adm %>%
+  filter(year == 2019)
+
+## 1 -  Color ##
+
+# Not quite right
+ggplot(data = ipeds_adm_plot,
+       mapping = aes(x = sat_score,
+                     y = act_score,
+                     color = "blue")) +
+  geom_point()
+
+
+# Correct
+ggplot(data = ipeds_adm_plot,
+       mapping = aes(x = sat_score,
+                     y = act_score)) +
+  geom_point(color = "blue")
+
+## 2 - Plus sign ##
+
+# Not quite right
+ggplot(data = ipeds_adm_plot,
+       mapping = aes(x = sat_score,
+                     y = act_score)) 
+ + geom_point() # <- + at the beginning
+
+
+ggplot(data = ipeds_adm_plot,
+       mapping = aes(x = sat_score,
+                     y = act_score)) # <- missing +
+  geom_point()
+  
+ggplot(data = ipeds_adm_plot,
+       mapping = aes(x = sat_score,
+                     y = act_score)) + + # <- double +
+  geom_point()
+
+# Correct
+ggplot(data = ipeds_adm_plot,
+       mapping = aes(x = sat_score,
+                     y = act_score)) + # Need to have a single + at the end of the line
+  geom_point()
+
+
+## 3 - Missing object ##
+
+# Not quite right
+ggplot(data = ipeds_adm_plot,
+       mapping = aes(x = sat,
+                     y = act_score)) +
+  geom_point()
+
+# Correct
+ggplot(data = ipeds_adm_plot,
+       mapping = aes(x = sat_score,
+                     y = act_score)) +
+  geom_point()
+
+## 4 - Parentheses ##
+
+# Not quite right
+ggplot(data = ipeds_adm_plot,
+       mapping = aes(x = sat_score,
+                     y = act_score) + # <- missing parentheses
+  geom_point()
+  
+ggplot(data = ipeds_adm_plot,
+       mapping = aes(x = sat_score,
+                     y = act_score))) + # <- extra parentheses 
+  geom_point()
+
+# Correct
+ggplot(data = ipeds_adm_plot,
+       mapping = aes(x = sat_score,
+                     y = act_score)) +
+  geom_point()
+
+```
+
 
 ## Data Visualization - Your Turn
 
+Using the code we've already written, try making a new version of a plot. Use a different geometric object (i.e. replace `geom_line()` with `geom_bar()`) or change the aesthetics mappings (i.e. add a color or fill argument to the `aes()` function or switch out the variables used in the `aes()` function to visualize different values). 
+
+Make a visualization using a different IPEDS dataset. 
+
+Learn more at the package website: https://ggplot2.tidyverse.org/ 
 
 
 ```{r visualize-data-your-turn}

@@ -14,8 +14,9 @@ This file contains contains code for pre-conference AIR Forum Workshop: Data Ana
 
 **Materials developed by Jenn Schilling.**  
 
+# Setup
 
-```{r setup, include=FALSE}
+```{r setup}
 
 # Set default chunk options
 knitr::opts_chunk$set(echo = TRUE, message = FALSE) 
@@ -34,7 +35,7 @@ library(scales)
 
 # Read the Data
 
-```{r read-data, include=FALSE}
+```{r read-data}
 
 # Data from IPEDS
 ipeds_char <- read_csv(here("data", "IPEDS_inst_char.csv"))
@@ -48,18 +49,188 @@ ipeds_compl <- read_csv(here("data", "IPEDS_inst_compl.csv"))
 
 # Data Exploration
 
+```{r explore-data}
 
-## Your Turn
+
+
+```
+
+
+## Data Exploration - Your Turn
+
+Use the `explore()` or `report()` to explore one of the other IPEDS datasets.
+
+What do you notice? 
+
+Are there any outliers or unusual patterns in any variable?
+
+Are there any missing values? 
+
+Does the shape of the data reveal anything interesting? 
+
+Learn more at the package website: https://github.com/rolkra/explore
+
+```{r explore-data-your-turn}
+
+
+
+
+```
+
 
 
 # Data Analysis
 
+```{r analyze-data}
 
-## Your Turn
+## Summarize Data ##
+
+
+## Manipulate Data ##
+
+
+## Correlation ##
+
+
+## Linear Regression ##
+
+
+
+```
+
+
+## Data Analysis - Your Turn
+
+Use the `summarize()` function to create summary statistics for a different column or different IPEDS dataset. 
+
+Try to add a new column with the `mutate()` function or subset the data using `filter()` or `select()` in one of the IPEDS datasets.
+
+Put two IPEDS datasets together using a `left_join()`, `right_join()`, or `inner_join()`.
+
+Explore a linear regression using `corr()` and `lm()`.
+
+Learn more at the package website: https://dplyr.tidyverse.org/
+
+If your data is not already in tidy format, the {tidyr} package provides useful functions for processing data. Learn more at the package website: https://tidyr.tidyverse.org/
+
+```{r analyze-data-your-turn}
+
+
+
+
+```
+
 
 
 # Data Visualization
 
+## Scatterplot
 
-## Your Turn
+```{r data-viz-01-scatter}
+
+# Is there a relationship between SAT score and ACT score in Fall 2019?
+
+
+
+# Step 1: Specify the data
+
+
+# Step 2: Specify the aesthetic mapping
+
+
+# Step 3: Specify the geometric object
+
+
+# Step 4: Add to aesthetic mapping
+
+
+
+
+```
+
+## Line Graph
+
+```{r data-viz-02-line}
+
+# How does the number of students who submit an SAT score change over time?
+
+
+
+```
+
+## Bar Graph
+
+```{r data-viz-03-bar}
+
+# How many institutions are in each type of locale?
+
+
+# What does enrollment look like by locale?
+
+
+
+```
+
+## Pie Chart
+
+```{r data-viz-04-pie}
+
+# What proportion of undergraduate enrollment at the University of Arizona in Fall 2020 was men vs. women?
+
+
+```
+
+## Faceting
+
+```{r data-viz-05-facets}
+
+# What does enrollment look like by institution and locale?
+
+
+```
+
+# Facets with Bars and Lines
+
+```{r data-viz-06-bar}
+
+# What does median enrollment look like over time in each locale?
+
+
+```
+
+## Formatting and Saving
+
+```{r data-viz-07-format}
+
+# So far, we’ve gone over a few different plot types, how to add color, and faceting. But how do you edit the colors and theme of the plot to get something that looks really nice? We’ve seen some pretty strange and unhelpful axis labels? How do we fix that?
+
+# What do degree completions look like over time at the University of Arizona?
+
+
+```
+
+## Fixing Potential Errors
+
+```{r data-viz-08-error}
+
+# Why doesn't the code in this chunk create what we expect?
+
+
+```
+
+
+## Data Visualization - Your Turn
+
+Using the code we've already written, try making a new version of a plot. Use a different geometric object (i.e. replace `geom_line()` with `geom_bar()`) or change the aesthetics mappings (i.e. add a color or fill argument to the `aes()` function or switch out the variables used in the `aes()` function to visualize different values). 
+
+Make a visualization using a different IPEDS dataset. 
+
+
+```{r visualize-data-your-turn}
+
+
+
+
+```
+
 
