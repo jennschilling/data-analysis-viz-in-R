@@ -13,7 +13,7 @@
   install.packages(c("here", "explore", 
                      "tidyverse", "scales"))
  ```
-- [Workshop folder with R Markdown and data files](https://github.com/jennschilling/data-analysis-viz-in-R/tree/main/air-workshop-materials)
+- [Workshop folder with R Markdown and data files](https://github.com/jennschilling/data-analysis-viz-in-R-materials)
 
 ### Workshop Materials
 - code
