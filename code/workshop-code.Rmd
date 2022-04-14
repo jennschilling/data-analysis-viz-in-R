@@ -441,6 +441,18 @@ ggplot(data = ua_enrl_perc,
   coord_polar(theta = "y",
               start = 0) 
 
+# Add labels
+ggplot(data = ua_enrl_perc,
+       mapping = aes(x = year,
+                     y = p_enrl,
+                     fill = gender,
+                     label = percent(p_enrl))) +
+  geom_col() +
+  geom_text(position = position_fill(vjust = 0.5)) +
+  coord_polar(theta = "y",
+              start = 0) 
+
+
 ```
 
 ## Faceting
