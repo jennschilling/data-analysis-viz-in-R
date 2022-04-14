@@ -39,6 +39,10 @@ Data comes from the following surveys:
 
 I pulled data from 2017-2020 and selected 16 institutions based on the University of Arizona's peers defined by the Arizona Board of Regents. Then I reformatted the data to be tidy. 
 
+### Code
+
+[Data Exploration Code](https://jennschilling.me/data-analysis-viz-in-R/workshop-code.html#Data_Exploration)
+
 ### Resources
 
 - [explore package](https://github.com/rolkra/explore)
