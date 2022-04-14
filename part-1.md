@@ -6,14 +6,14 @@
 
 
 ### R Setup
-- [R](https://www.r-project.org/)
-- [RStudio](https://www.rstudio.com/)
-- Packages Installed (here, explore, tidyverse, scales)
+- Install [R](https://www.r-project.org/)
+- Install [RStudio](https://www.rstudio.com/)
+- Install packages (here, explore, tidyverse, scales)
  ```
   install.packages(c("here", "explore", 
                      "tidyverse", "scales"))
  ```
-- [Workshop folder with R Markdown and data files](https://github.com/jennschilling/data-analysis-viz-in-R-materials)
+- Download [workshop materials folder with R Markdown and data files](https://github.com/jennschilling/data-analysis-viz-in-R-materials)
 
 ### Workshop Materials
 - code
@@ -43,6 +43,6 @@ I pulled data from 2017-2020 and selected 16 institutions based on the Universit
 
 [Data Exploration Code](https://jennschilling.me/data-analysis-viz-in-R/workshop-code.html#Data_Exploration)
 
-### Resources
+### Data Exploration Resources
 
 - [explore package](https://github.com/rolkra/explore)
