@@ -17,7 +17,7 @@
 
 ### Workshop Materials
 - code
-  - data-analysis-viz-in-r-code.Rmd
+  - workshop-code-along.Rmd
 - data
   - IPEDS_inst_adm.csv
   - IPEDS_inst_char.csv
