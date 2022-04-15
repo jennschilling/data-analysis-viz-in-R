@@ -1,5 +1,7 @@
 # How to Analyze and Visualize Institutional Data in R
 
+This directory contains the data and code for pre-conference AIR Forum Workshop: Data Analysis Visualization in R, presented for the Association for Institutional Research by Jenn Schilling on June 5, 2022.
+
 This session will introduce individuals with a basic understanding of R to data manipulation, analysis, and visualization in R. Through guided exercises and presentations, participants will learn how to analyze data and create polished data visualizations in R. The session will also include tips on data visualization best practices, creating reproducible code, and outputting data visualizations in R. This session is ideal for higher education professionals who have limited experience in R and want to learn how to manipulate, analyze, and visualize data in R.
 
 **Materials developed by Jenn Schilling.**  
