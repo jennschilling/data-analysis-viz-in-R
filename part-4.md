@@ -7,3 +7,6 @@
 - [R for Data Science](https://r4ds.had.co.nz/index.html)
 - [ggplot2 book](https://ggplot2-book.org/)
 - [R Graph Gallery](https://r-graph-gallery.com/)
+
+### Evaluation
+- [Please Complete this short survey](https://forms.office.com/r/JNxHcKEDUp)
