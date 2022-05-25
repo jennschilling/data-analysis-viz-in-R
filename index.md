@@ -10,13 +10,6 @@ After attending this pre-conference workshop, you will be able to:
 - Create at least three different charts in R
 - Develop polished, presentation-ready visualizations in R
 
-**Materials developed by Jenn Schilling.**  
-
-<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">
-<img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a>
-<br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">
-Creative Commons Attribution-NonCommercial 4.0 International License</a>.
-
 
 ### Pre-work
 
@@ -45,3 +38,9 @@ This workshop will be held Sunday, June 5, 2022, 12:30–4:00 PM at the AIR Foru
 | 3:15 - 4:00 | [Data Visualization in R & Next Steps](part-4.md) |
 
 
+**Materials developed by Jenn Schilling.**  
+
+<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">
+<img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a>
+<br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">
+Creative Commons Attribution-NonCommercial 4.0 International License</a>.
